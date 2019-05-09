@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--
+
+The data presented in the "Mapa do Minério" is published under the following 
+License.
+
+Copyright © 2019 Nik Völker http://mapadominerio.auportugal.eu
+
+Permission to use, copy, modify, and/or distribute this data for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE DATA IS PROVIDED 'AS IS' AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
+
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-landscape.jpg" />
+    <meta property="og:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-square.jpg" />
+    <meta property="og:url" content="http://mapadominerio.auportugal.eu/" />
+    <meta property="og:title" content="Mapa do minério, Portugal Continental 2017-19" />
+    <meta property="og:description" content="Áreas destinadas à actividade mineira, publicadas no Diário da República entre 2017 e 2019. " />
+    <meta property="fb:admins" content="1545727531"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-landscape.jpg">
+    <meta name="twitter:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-square.jpg">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Mapa do minério, Portugal Continental 2017-19</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <style>
+      html, body { width: 100vw; margin: 0; padding: 0;}
+      h3, h2 { font-family: Verdana, Arial, sans-serif; text-align: left; padding: 0px; margin: 5px; }
+      h2 { color: #666; text-transform: uppercase; }
+      h3 { color: #ccc; font-size: 14px;}
+      hr { border: none; height: 1px; left: 0; width: 100%; color: #ccc; background-color: #ccc; }
+      #map { position:absolute; top:0; bottom:0; width:60%; box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15); }
+      #info { position:absolute; top:0; bottom:0; width:34%; margin: .1em 62%; overflow-y: scroll; }
+      @media screen and (max-width: 768px) {
+         #map { height:60%; width:100%; bottom:0; }
+         #info { top: 60.25%; width: 90%; left: 3%; margin: 0; overflow-y: auto; bottom: auto; }
+      }
+      .reference { font-size: 12px; line-height: 18px; text-align: left;}
+      .changelog {
+        text-align: justify;
+        font-family: Times, "Times New Roman", serif;
+        font-size: 15px;  
+        line-height: 19px;
+        padding: 10px;
+      }
+      .license { font-size: 10px; line-height: 12px; font-family: Courier, "Courier New", serif; color: #999; }
+      .footer {
+        font-family: Verdana, Arial, sans-serif;
+        text-align: center;
+        color: #333;
+        font-size: 11px;
+
+      }
+      .footer a { color: inherit; text-decoration: none;} 
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <div id="info" class="changelog">
+
+      <h2>Mapa do minério</h2>
+      <h3>Portugal Continental 2017&#8209;2019</h3>
+
+      <hr>
+
+      <p><strong>ÁREAS</strong>
+        <table style="width:100%; border-collapse:separate; border-spacing:0 5px;font-size: 12px; font-family: Verdana, Arial, sans-serif;">
+          <tr>
+            <td style="background-color: rgba(0, 255, 255, 0.8);">&nbsp;</td>
+            <td>&nbsp;&nbsp;Requerimento de prospeção e pesquisa</td>
+          </tr>
+          <tr>
+            <td style="background-color: rgba(0, 0, 255, 0.8);">&nbsp;</td>
+            <td>&nbsp;&nbsp;Contrato para prospeção e pesquisa</td>
+          </tr>
+          <tr>
+            <td style="background-color: rgba(255, 0, 255, 0.8);">&nbsp;</td>
+            <td>&nbsp;&nbsp;Requerimento de exploração</td>
+          </tr>
+          <tr>
+            <td style="background-color: rgba(255, 0, 0, 0.8);">&nbsp;</td>
+            <td>&nbsp;&nbsp;Contrato para concessão de exploração</td>
+          </tr>
+          <tr>
+            <td style="width: 20px; background-color: rgba(255, 189, 0, 0.8);">&nbsp;</td>
+            <td>&nbsp;&nbsp;Relatório do grupo de trabalho 'Lítio'</td>
+          </tr>
+          <tr>
+            <td style="width: 20px; background-color: rgba(0, 0, 0, 0.8);">&nbsp;</td>
+            <td>&nbsp;&nbsp;Outras</td>
+          </tr>
+        </table>
+      </p>
+
+      <hr>
+
+      <p><strong>CHANGELOG</strong><br />
+        
+        <p><strong>1.ª versão, 8.5.2019</strong><br />
+          O mapa mostra áreas extraidas do <a href="https://www.dre.pt/" target="_blank">Diário da República</a>, onde os requerimentos e as concessões de empresas do sector mineiro são divulgados públicamente. Incluídas nesta primeira versão do mapa estão as áreas publicadas entre 1/2017 e 5/2019, para além das zonas recomendadas para prospeção e eventual exploração no <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">relatório</a> do <i><a href="https://dre.pt/web/guest/home/-/dre/105348759/details/4/maximized?serie=II&dreId=105348688" target="_blank">Grupo de trabalho "Lítio"</a></i> em 3/2017 (v. o "aviso" em baixo). Considerando as zonas publicadas em dre.pt, incluiu-se todo o tipo de áreas (requerimentos para pesquisa, contratos de exploração, etc.) e minerais (de arsénio até zinco, incluindo o lítio, mas também substâncias mais comuns como caulino/argila ou quarzo/areia).</p>
+
+        <p><strong>Roadmap</strong><br />
+          <ul>
+            <li>adicionar publicações no Diário da República do período 7/2006-12/2016</li>
+            <li>filtros interactivos para pesquisar por data da publicação, por nome do requerente, ou por minerais mencionados</li>
+          </ul>
+        </p>
+
+      <hr>
+
+        <p><strong>AVISO</strong><br />
+          Por razões técnicas pode haver erros nas áreas que foram extraídas das publicações do dre.pt. O processamento foi feito com atenção, mas obviamente não posso assumir qualquer responsabilidade relativamente à coerência dos dados geridos. Quem quiser pode comunicar dados geográficos para inclusão no mapa ou erros por email a <a href="mailto:mapadominerio@auportugal.eu">mapadominerio@auportugal.eu</a>. As 9 zonas publicadas em 3/2017 pelo <i>Grupo de trabalho "Lítio"</i> foram tiradas manualmente do <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">relatório</a> (cap. IV, p.1). As vértices delas têm porém uma precisão reduzida de 1-3 km. Coordenadas em formatos nacionais nas publicações no dre.pt foram transformadas para WGS 84 com <a href="https://proj4.org" target="_blank">PROJ.4</a>, aplicando as respetivas referências disponíveis em <a href="https://spatialreference.org/ref/epsg/3763/" target="_blank">spatialreference.org</a>.</p>
+      <hr>
+
+        <p><strong>CÓDIGO ABERTO</strong><br />
+          Este projeto e os ficheiros geoJSON incluidos nele são publicados como código aberto, sob abaixo referida licença ISC. Está <i>livre</i> de puxa-lo do <a href="https://github.com/Nik-Voelker/mapa-do-minerio" target="_blank">repositório no GitHub</a> para criação de dados ou representações derivados.</p>
+          <p class="license">
+            Copyright 2019, Nik Völker<br />
+            <br />
+            Permission to use, copy, modify, and/or distribute this data for any
+            purpose with or without fee is hereby granted, provided that the above
+            copyright notice and this permission notice appear in all copies.<br />
+            <br />
+            THE DATA IS PROVIDED 'AS IS' AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+            WITH REGARD TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF
+            MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+            ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+            WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+            ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+            OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.<br />
+          </p>
+
+      <hr>
+
+        <p class="footer">
+          <a href="mailto:nik@nik-voelker.com">❄️ Made</a> na Serra da Estrela ⛰️
+        </p>
+
+    </div>
+    <script>
+        // Set bounds to Portugal Continental so no one gets lost in navigation
+        var ptBounds = [
+          [-12, 36], // Southwest coordinates
+          [-4, 43]  // Northeast coordinates
+        ];
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYWRvbWluZXJpbyIsImEiOiJjanZmaDQ0NzAyYzNkNDNwOHNobHJ2NjEwIn0.ryr-WDo_LSXYpsCIYok9_g';
+        var map = new mapboxgl.Map({
+          container: 'map', // container id
+          style: 'mapbox://styles/mapadominerio/cjvfilgob0n0f1fqnjq62at3p', // stylesheet location
+          center: [-7.5, 40.3], // starting position [lng, lat]
+          zoom: 7, // starting zoom
+          maxBounds: ptBounds, // Sets bounds as max
+          pitchWithRotate: false,
+          dragRotate: false,
+        });
+
+        // Add zoom and rotation controls to the map.
+        map.addControl(new mapboxgl.NavigationControl({ showCompass: false }));
+
+        map.on('load', function () {
+          // Load zone data (DRE)
+          map.addSource('dre', {
+            type: 'geojson',
+            data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_rev1_2019-05-09.geojson'
+          });
+
+          // Load zone data (Grupo de Trabalho 'Lítio' 3/2017)
+          map.addSource('gdtl', {
+            type: 'geojson',
+            data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_relatorioGTL_2019-05-09.min.geojson'
+          });
+
+          // Render zone data (DRE)
+          map.addLayer({
+            'id': 'zonesDre',
+            'type': 'fill',
+            'source': 'dre',
+            'paint': { 'fill-outline-color': ['get', 'stroke'], 'fill-color' : ['get', 'fill'], 'fill-opacity' : 0.5 }
+          });
+
+          // Render zone data (Grupo de Trabalho 'Lítio' 3/2017)
+          map.addLayer({
+            'id': 'zonesGdtl',
+            'type': 'fill',
+            'source': 'gdtl',
+            'paint': { 'fill-outline-color': ['get', 'stroke'], 'fill-color' : ['get', 'fill'], 'fill-opacity' : 0.5 }
+          });
+
+          // When a click event occurs on a feature in the states layer, open a popup at the
+          // location of the click, with description HTML from its properties.
+          map.on('click', 'zonesDre', function (e) {
+            new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setHTML(e.features.map(function(feature) { 
+                let dre = (feature.properties.dre) ? JSON.parse(feature.properties.dre) : false;
+                let minerals = (feature.properties.minerals) ? JSON.parse(feature.properties.minerals).join(', ') : 's.d.';
+                // não é bonito, mas dá para o bolo sair do forno... :-) 
+                return '<h2>' + feature.properties.name + '</h2>' + 
+                '<strong>Tipo:</strong> ' + dre.act + '<br />' + 
+                '<strong>Requerente:</strong> ' + dre.entity + '<br />' + 
+                '<strong>Data:</strong> ' + dre.pubDate + '<br />' + 
+                '<strong>Minerais:</strong> ' + minerals + '<br />' + 
+                '<strong>DRE N.°:</strong> ' + dre.pubNo + '<br />' +
+                '<strong>Publicação N.°:</strong> ' + dre.actNo + '<br />' + 
+                '<strong>Fonte:</strong> <a href="' + dre.urlHtml + '" target="_blank">HTML</a> ' + '<a href="' + dre.urlPdf + '" target="_blank">PDF</a><br />'
+              }).join('<hr>'))
+              .addTo(map);
+          });
+           map.on('click', 'zonesGdtl', function (e) {
+            new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setHTML(e.features.map(function(feature) { 
+                // não é bonito, mas dá para o bolo sair do forno... :-) 
+                return '<h2>' + feature.properties.name + '</h2>' + 
+                feature.properties.descr + ' <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">Fonte</a><br /><br /><i>Vértice extraido manual - precisão reduzida de 1-3 km!</i>';
+              }).join('<hr>'))
+              .addTo(map);
+          });
+
+          // Change the cursor to a pointer when the mouse is over a zone
+          map.on('mouseenter', 'zonesDre', function () {
+            map.getCanvas().style.cursor = 'pointer';
+          });
+          map.on('mouseenter', 'zonesGdtl', function () {
+            map.getCanvas().style.cursor = 'pointer';
+          });
+
+          // Change it back to a pointer when it leaves
+          map.on('mouseleave', 'zonesDre', function () {
+            map.getCanvas().style.cursor = '';
+          });
+          map.on('mouseleave', 'zonesGdtl', function () {
+            map.getCanvas().style.cursor = '';
+          });
+
+        });
+
+      // gather basic usage data
+      var sc_project=12004214; 
+      var sc_invisible=1; 
+      var sc_security="8244602f"; 
+      var sc_https=1; 
+      </script>
+      <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+      <noscript>
+        <div class="statcounter">
+          <a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12004214/0/8244602f/1/" alt="Web Analytics"></a></div></noscript>
+    </script>
+    </script>
+  </body>
+</html>
