@@ -178,7 +178,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
             // Load zone data (DRE)
             map.addSource('dre', {
               type: 'geojson',
-              data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_rev2_2019-05-09.min.geojson'
+              data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_2019-05-10.min.geojson'
             });
 
             // Load zone data (Grupo de Trabalho 'Lítio' 3/2017)
@@ -217,7 +217,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
                   '<strong>Requerente:</strong> ' + dre.entity + '<br />' + 
                   '<strong>Data:</strong> ' + dre.pubDate + '<br />' + 
                   '<strong>Minerais:</strong> ' + minerals + '<br />' + 
-                  '<strong>DRE N.°:</strong> ' + dre.pubNo + '<br />' +
+                  '<strong>DR N.°:</strong> ' + dre.pubNo + '<br />' +
                   '<strong>Publicação N.°:</strong> ' + dre.actNo + '<br />' + 
                   '<strong>Fonte:</strong> <a href="' + dre.urlHtml + '" target="_blank">HTML</a> ' + '<a href="' + dre.urlPdf + '" target="_blank">PDF</a><br />'
                 }).join('<hr>'))
