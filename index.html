@@ -35,7 +35,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
     <meta name="twitter:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-square.jpg">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
-    <title>Mapa do minério, Portugal Continental 2017-19</title>
+    <title>Mapa do minério, Portugal Continental 2016-19</title>
     <style>
       html, body { width: 100vw; margin: 0; padding: 0;}
       h3, h2 { font-family: Verdana, Arial, sans-serif; text-align: left; padding: 0px; margin: 5px; }
@@ -72,7 +72,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
     <div id="info" class="changelog">
 
       <h2>Mapa do minério</h2>
-      <h3>Portugal Continental 2017&#8209;2019</h3>
+      <h3>Portugal Continental 2016&#8209;2019</h3>
 
       <hr>
 
@@ -107,13 +107,13 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
       <hr>
 
       <p><strong>CHANGELOG</strong><br />
-          <strong>1.ª versão, 8.5.2019</strong><br />
-          O mapa mostra áreas extraidas do <a href="https://www.dre.pt/" target="_blank">Diário da República</a>, onde os requerimentos e as concessões de empresas do sector mineiro são divulgados publicamente. Incluídas nesta primeira versão do mapa estão as áreas publicadas entre 1/2017 e 5/2019, para além das zonas recomendadas para prospeção e eventual exploração no <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">relatório</a> do <i><a href="https://dre.pt/web/guest/home/-/dre/105348759/details/4/maximized?serie=II&dreId=105348688" target="_blank">Grupo de trabalho "Lítio"</a></i> em 3/2017 (v. o "aviso" em baixo). Considerando as zonas publicadas em dre.pt, incluiu-se todo o tipo de áreas (requerimentos para pesquisa, contratos de exploração, etc.) e minerais (de arsénio até zinco, incluindo o lítio, mas também substâncias mais comuns como caulino/argila ou quarzo/areia).</p>
+          <strong>2.ª versão, 13.5.2019</strong><br />
+          O mapa mostra áreas extraidas do <a href="https://www.dre.pt/" target="_blank">Diário da República</a>, onde os requerimentos e as concessões de empresas do sector mineiro são divulgados publicamente. Incluídas nesta primeira versão do mapa estão as áreas publicadas entre 1/2016 e 5/2019, para além das zonas recomendadas para prospeção e eventual exploração no <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">relatório</a> do <i><a href="https://dre.pt/web/guest/home/-/dre/105348759/details/4/maximized?serie=II&dreId=105348688" target="_blank">Grupo de trabalho "Lítio"</a></i> em 3/2017 (v. o "aviso" em baixo). Considerando as zonas publicadas em dre.pt, incluiu-se todo o tipo de áreas (requerimentos para pesquisa, contratos de exploração, etc.) e minerais (de arsénio até zinco, incluindo o lítio, mas também substâncias mais comuns como caulino/argila ou quarzo/areia).</p>
 
         <strong>Roadmap</strong><br />
           <ul>
-            <li>incluir as 'zonas de exclusão' presentes em 9 áreas</li>
-            <li>adicionar publicações no Diário da República do período 7/2006-12/2016</li>
+            <li>incluir as 'zonas de exclusão' presentes em 11 áreas</li>
+            <li>adicionar publicações no Diário da República do período 7/2006-12/2015</li>
             <li>filtros interactivos para permitir pesquisar por data da publicação, por nome do requerente, ou por minerais mencionados</li>
           </ul>
 
@@ -178,7 +178,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
             // Load zone data (DRE)
             map.addSource('dre', {
               type: 'geojson',
-              data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_2019-05-10.min.geojson'
+              data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_2019-05-13.min.geojson'
             });
 
             // Load zone data (Grupo de Trabalho 'Lítio' 3/2017)
