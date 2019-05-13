@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="500" width="500">
+  <defs>
+    <pattern id="stripe" patternUnits="userSpaceOnUse" width="20" height="10" patternTransform="rotate(90)">
+      <line x1="5" y1="0" x2="15" y2="10" />
+      <line x1="-5" y1="0" x2="5" y2="10" />
+      <line x1="15" y1="0" x2="25" y2="10" />
+    </pattern>
+    <mask id="mask">
+      <rect height="500" width="500" style="fill: url(#stripe)" />
+    </mask>
+  </defs>
+  <g>
+    <circle cx="250" cy="250" r="200" style="fill: rgba(0, 255, 0, 0.2);" />
+  </g>
+</svg>
