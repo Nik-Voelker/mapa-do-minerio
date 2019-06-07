@@ -8,245 +8,6 @@
         "coordinates": [
           [
             [
-              -6.91342,
-              41.83074
-            ],
-            [
-              -6.88123,
-              41.82714
-            ],
-            [
-              -6.88179,
-              41.79834
-            ],
-            [
-              -6.79368,
-              41.79735
-            ],
-            [
-              -6.79303,
-              41.81684
-            ],
-            [
-              -6.73683,
-              41.81617
-            ],
-            [
-              -6.73845,
-              41.75204
-            ],
-            [
-              -6.79177,
-              41.75268
-            ],
-            [
-              -6.79113,
-              41.77229
-            ],
-            [
-              -6.85342,
-              41.773
-            ],
-            [
-              -6.85384,
-              41.75212
-            ],
-            [
-              -6.97893,
-              41.74939
-            ],
-            [
-              -7.12201,
-              41.82501
-            ],
-            [
-              -6.91342,
-              41.83074
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dre": {
-          "entity": "Minerália - Minas, Geotécnia e Construções, Lda.",
-          "act": "Contrato para prospeção e pesquisa",
-          "actNo": "261/2019",
-          "actType": "conPesquisa",
-          "actString": "contrato",
-          "actId": 122402925,
-          "pubNo": "101/2019",
-          "pubDate": "2019-05-29",
-          "pubYear": 2019,
-          "coordSys": "PT-TM06/ETRS89",
-          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/122402925/details/",
-          "urlPdf": "https://dre.pt/application/conteudo/122402925"
-        },
-        "name": "MN/PP/001/19 Vinhais",
-        "minerals": [
-          "crómio",
-          "chumbo",
-          "zinco",
-          "cobre",
-          "ouro",
-          "prata",
-          "platina",
-          "níquel",
-          "cobalto",
-          "outros metais associado"
-        ],
-        "src": "dre",
-        "fill": "#0000ff",
-        "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 182339934,
-        "centroid": [
-          -6.92181,
-          41.7907
-        ],
-        "minzoom": 6
-      },
-      "id": 5122402925,
-      "year": 2019
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -7.28128,
-              39.17399
-            ],
-            [
-              -7.30148,
-              39.18427
-            ],
-            [
-              -7.33226,
-              39.20436
-            ],
-            [
-              -7.39142,
-              39.20519
-            ],
-            [
-              -7.3917,
-              39.25212
-            ],
-            [
-              -7.3534,
-              39.25157
-            ],
-            [
-              -7.28128,
-              39.17399
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dre": {
-          "entity": "Acúrcio Henriques Parra, Lda.",
-          "act": "Contrato para prospeção e pesquisa",
-          "actNo": "262/2019",
-          "actType": "conPesquisa",
-          "actString": "contrato",
-          "actId": 122402926,
-          "pubNo": "101/2019",
-          "pubDate": "2019-05-29",
-          "pubYear": 2019,
-          "coordSys": "PT-TM06/ETRS89",
-          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/122402926/details/",
-          "urlPdf": "https://dre.pt/application/conteudo/122402926"
-        },
-        "name": "MN/PP/002/19 Esperança, Bloco Norte",
-        "minerals": [
-          "zircónio",
-          "háfnio",
-          "titânio"
-        ],
-        "src": "dre",
-        "fill": "#0000ff",
-        "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 30844516,
-        "centroid": [
-          -7.36789,
-          39.22831
-        ],
-        "minzoom": 7
-      },
-      "id": 5122402926,
-      "year": 2019
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -7.27865,
-              39.17265
-            ],
-            [
-              -7.22775,
-              39.14669
-            ],
-            [
-              -7.18674,
-              39.14026
-            ],
-            [
-              -7.27865,
-              39.17265
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "dre": {
-          "entity": "Acúrcio Henriques Parra, Lda.",
-          "act": "Contrato para prospeção e pesquisa",
-          "actNo": "262/2019",
-          "actType": "conPesquisa",
-          "actString": "contrato",
-          "actId": 122402926,
-          "pubNo": "101/2019",
-          "pubDate": "2019-05-29",
-          "pubYear": 2019,
-          "coordSys": "PT-TM06/ETRS89",
-          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/122402926/details/",
-          "urlPdf": "https://dre.pt/application/conteudo/122402926"
-        },
-        "name": "MN/PP/002/19 Esperança, Bloco Sul",
-        "minerals": [
-          "zircónio",
-          "háfnio",
-          "titânio"
-        ],
-        "src": "dre",
-        "fill": "#0000ff",
-        "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 3542022,
-        "centroid": [
-          -7.22905,
-          39.15139
-        ],
-        "minzoom": 8
-      },
-      "id": 5122402926,
-      "year": 2019
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -8.37447,
               38.68619
             ],
@@ -300,13 +61,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 411333048,
-        "centroid": [
-          -8.31206,
-          38.59556
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5122361166,
       "year": 2019
@@ -407,13 +162,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 6379908,
-        "centroid": [
-          -7.72709,
-          41.73734
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5122361167,
       "year": 2019
@@ -470,13 +219,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1879586,
-        "centroid": [
-          -7.67669,
-          41.8107
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5122361167,
       "year": 2019
@@ -624,13 +367,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 19408863,
-        "centroid": [
-          -8.58449,
-          40.12595
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5122285162,
       "year": 2019
@@ -817,144 +554,6 @@
               -7.55009,
               41.63684
             ]
-          ],
-          [
-            [
-              -7.41147,
-              41.76422
-            ],
-            [
-              -7.41149,
-              41.80348
-            ],
-            [
-              -7.45555,
-              41.80465
-            ],
-            [
-              -7.5155,
-              41.75915
-            ],
-            [
-              -7.51567,
-              41.74172
-            ],
-            [
-              -7.4971,
-              41.7303
-            ],
-            [
-              -7.49734,
-              41.70616
-            ],
-            [
-              -7.47688,
-              41.70445
-            ],
-            [
-              -7.45796,
-              41.70278
-            ],
-            [
-              -7.43542,
-              41.73235
-            ],
-            [
-              -7.41147,
-              41.76422
-            ]
-          ],
-          [
-            [
-              -7.38865,
-              41.78496
-            ],
-            [
-              -7.3813,
-              41.77699
-            ],
-            [
-              -7.35525,
-              41.79044
-            ],
-            [
-              -7.36261,
-              41.79841
-            ],
-            [
-              -7.38865,
-              41.78496
-            ]
-          ],
-          [
-            [
-              -7.52049,
-              41.65919
-            ],
-            [
-              -7.52755,
-              41.6647
-            ],
-            [
-              -7.52986,
-              41.66537
-            ],
-            [
-              -7.53117,
-              41.66507
-            ],
-            [
-              -7.53811,
-              41.66186
-            ],
-            [
-              -7.54085,
-              41.65697
-            ],
-            [
-              -7.53984,
-              41.65526
-            ],
-            [
-              -7.53154,
-              41.65012
-            ],
-            [
-              -7.52968,
-              41.64973
-            ],
-            [
-              -7.52774,
-              41.65038
-            ],
-            [
-              -7.52055,
-              41.65617
-            ],
-            [
-              -7.51976,
-              41.65784
-            ],
-            [
-              -7.46745,
-              41.85399
-            ],
-            [
-              -7.46947,
-              41.84518
-            ],
-            [
-              -7.46346,
-              41.84417
-            ],
-            [
-              -7.46144,
-              41.85305
-            ],
-            [
-              -7.52049,
-              41.65919
-            ]
           ]
         ]
       },
@@ -989,13 +588,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 493582238,
-        "centroid": [
-          -7.32357,
-          41.70461
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5122278172,
       "year": 2019
@@ -1120,13 +713,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 261214893,
-        "centroid": [
-          -7.43415,
-          41.24398
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122263511,
       "year": 2019
@@ -1215,13 +802,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 54264954,
-        "centroid": [
-          -7.6317,
-          40.11598
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122263512,
       "year": 2019
@@ -1302,13 +883,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 121689236,
-        "centroid": [
-          -7.78841,
-          40.07552
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122263512,
       "year": 2019
@@ -1501,13 +1076,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 1386682,
-        "centroid": [
-          -8.82845,
-          39.91898
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5122216673,
       "year": 2019
@@ -1590,48 +1159,6 @@
               -7.81809,
               41.33134
             ]
-          ],
-          [
-            [
-              -7.84509,
-              41.1541
-            ],
-            [
-              -7.82973,
-              41.15027
-            ],
-            [
-              -7.82804,
-              41.15435
-            ],
-            [
-              -7.82951,
-              41.15903
-            ],
-            [
-              -7.84178,
-              41.162
-            ],
-            [
-              -7.80971,
-              41.1258
-            ],
-            [
-              -7.80969,
-              41.13031
-            ],
-            [
-              -7.81756,
-              41.13033
-            ],
-            [
-              -7.81759,
-              41.12582
-            ],
-            [
-              -7.84509,
-              41.1541
-            ]
           ]
         ]
       },
@@ -1666,13 +1193,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 480405313,
-        "centroid": [
-          -7.90672,
-          41.18255
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5122216672,
       "year": 2019
@@ -1732,13 +1253,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 163085,
-        "centroid": [
-          -7.20736,
-          41.28611
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 5122202226,
       "year": 2019
@@ -1794,13 +1309,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 150231,
-        "centroid": [
-          -7.22619,
-          41.27545
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 5122202226,
       "year": 2019
@@ -1856,13 +1365,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 104891,
-        "centroid": [
-          -7.23575,
-          41.25678
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 5122202226,
       "year": 2019
@@ -1959,13 +1462,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 249269690,
-        "centroid": [
-          -7.04154,
-          40.30109
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122062632,
       "year": 2019
@@ -2066,13 +1563,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 462906846,
-        "centroid": [
-          -7.31752,
-          40.14637
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5122062634,
       "year": 2019
@@ -2185,13 +1676,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 353274148,
-        "centroid": [
-          -7.14447,
-          41.65275
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122062635,
       "year": 2019
@@ -2296,13 +1781,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 429452138,
-        "centroid": [
-          -7.42915,
-          39.98036
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5122062633,
       "year": 2019
@@ -2435,13 +1914,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 265219203,
-        "centroid": [
-          -7.17338,
-          41.18259
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122062631,
       "year": 2019
@@ -2542,13 +2015,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 263249856,
-        "centroid": [
-          -7.47974,
-          40.24762
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122062630,
       "year": 2019
@@ -2729,13 +2196,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 260587475,
-        "centroid": [
-          -7.75325,
-          40.45367
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122056861,
       "year": 2019
@@ -2798,13 +2259,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 75215365,
-        "centroid": [
-          -7.62171,
-          41.32796
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122049658,
       "year": 2019
@@ -2909,13 +2364,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 271279929,
-        "centroid": [
-          -7.14862,
-          40.56844
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5122025389,
       "year": 2019
@@ -3058,28 +2507,6 @@
               -8.0358,
               40.64401
             ]
-          ],
-          [
-            [
-              -7.85014,
-              40.60795
-            ],
-            [
-              -7.85944,
-              40.61703
-            ],
-            [
-              -7.88305,
-              40.60833
-            ],
-            [
-              -7.87026,
-              40.59912
-            ],
-            [
-              -7.85014,
-              40.60795
-            ]
           ]
         ]
       },
@@ -3114,13 +2541,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 487261819,
-        "centroid": [
-          -8.05942,
-          40.56857
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5121986698,
       "year": 2019
@@ -3325,13 +2746,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 426588988,
-        "centroid": [
-          -7.7891,
-          40.70726
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5121986696,
       "year": 2019
@@ -3484,13 +2899,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 421253822,
-        "centroid": [
-          -7.33957,
-          40.8256
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5121986697,
       "year": 2019
@@ -3595,13 +3004,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 436274803,
-        "centroid": [
-          -7.44813,
-          40.72142
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5121894220,
       "year": 2019
@@ -3702,13 +3105,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 62381620,
-        "centroid": [
-          -7.15661,
-          39.86643
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121722065,
       "year": 2019
@@ -3857,13 +3254,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 127294019,
-        "centroid": [
-          -7.03504,
-          39.74751
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121722065,
       "year": 2019
@@ -3976,13 +3367,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 308831983,
-        "centroid": [
-          -6.94861,
-          40.48309
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121722066,
       "year": 2019
@@ -4101,28 +3486,6 @@
               -6.83213,
               40.74963
             ]
-          ],
-          [
-            [
-              -6.93141,
-              40.75604
-            ],
-            [
-              -6.94741,
-              40.76269
-            ],
-            [
-              -6.96486,
-              40.7409
-            ],
-            [
-              -6.94979,
-              40.73515
-            ],
-            [
-              -6.93141,
-              40.75604
-            ]
           ]
         ]
       },
@@ -4157,13 +3520,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 375512929,
-        "centroid": [
-          -6.8914,
-          40.808
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121698858,
       "year": 2019
@@ -4296,13 +3653,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 74822719,
-        "centroid": [
-          -8.29361,
-          42.00765
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121312336,
       "year": 2019
@@ -4390,13 +3741,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 43223082,
-        "centroid": [
-          -7.23535,
-          41.0718
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121254215,
       "year": 2019
@@ -4477,13 +3822,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 133457045,
-        "centroid": [
-          -8.08358,
-          41.59611
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121075702,
       "year": 2019
@@ -4552,13 +3891,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 99171431,
-        "centroid": [
-          -8.49287,
-          41.57197
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5121075701,
       "year": 2019
@@ -4626,13 +3959,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 19870998,
-        "centroid": [
-          -7.76941,
-          41.73487
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5120693733,
       "year": 2019
@@ -4692,13 +4019,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 1360497,
-        "centroid": [
-          -7.76218,
-          41.69512
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5120693733,
       "year": 2019
@@ -4816,13 +4137,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 492011776,
-        "centroid": [
-          -7.73223,
-          38.25211
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5120525188,
       "year": 2019
@@ -4892,13 +4207,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 468009920,
-        "centroid": [
-          -8.67468,
-          38.03748
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5120525189,
       "year": 2019
@@ -5023,13 +4332,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 490860564,
-        "centroid": [
-          -7.28307,
-          38.87773
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5119972541,
       "year": 2019
@@ -5091,13 +4394,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 56266075,
-        "centroid": [
-          -7.99054,
-          41.65403
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5119831076,
       "year": 2019
@@ -5222,13 +4519,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 87979,
-        "centroid": [
-          -8.8335,
-          39.94955
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 5116695183,
       "year": 2018
@@ -5295,13 +4586,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 323606888,
-        "centroid": [
-          -8.40704,
-          40.72653
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5116524480,
       "year": 2018
@@ -5375,13 +4660,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 140784682,
-        "centroid": [
-          -7.98118,
-          37.57651
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5116396799,
       "year": 2018
@@ -5438,13 +4717,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 256712,
-        "centroid": [
-          -7.6791,
-          41.7746
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 5116360281,
       "year": 2018
@@ -5512,13 +4785,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 894689,
-        "centroid": [
-          -8.7586,
-          39.78629
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5116360282,
       "year": 2018
@@ -5787,13 +5054,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 1255139,
-        "centroid": [
-          -7.82916,
-          40.45423
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5115941591,
       "year": 2018
@@ -5875,13 +5136,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 124695037,
-        "centroid": [
-          -7.02233,
-          41.26831
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5115932562,
       "year": 2018
@@ -5967,13 +5222,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 89011382,
-        "centroid": [
-          -7.68954,
-          40.16641
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5115844302,
       "year": 2018
@@ -6052,13 +5301,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 36164109,
-        "centroid": [
-          -7.76766,
-          40.78253
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5115674412,
       "year": 2018
@@ -6188,13 +5431,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3121316,
-        "centroid": [
-          -7.66488,
-          41.60901
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5115590872,
       "year": 2018
@@ -6255,13 +5492,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 111512412,
-        "centroid": [
-          -7.71403,
-          40.77833
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5115483068,
       "year": 2018
@@ -6341,13 +5572,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2723864,
-        "centroid": [
-          -8.50521,
-          40.40136
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5115468212,
       "year": 2018
@@ -6394,28 +5619,6 @@
               -7.3237,
               41.32347
             ]
-          ],
-          [
-            [
-              -7.31011,
-              41.29268
-            ],
-            [
-              -7.30356,
-              41.28736
-            ],
-            [
-              -7.31439,
-              41.27978
-            ],
-            [
-              -7.32094,
-              41.2851
-            ],
-            [
-              -7.31011,
-              41.29268
-            ]
           ]
         ]
       },
@@ -6442,13 +5645,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 23464588,
-        "centroid": [
-          -7.31906,
-          41.30493
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5115386327,
       "year": 2018
@@ -6518,13 +5715,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 130150539,
-        "centroid": [
-          -7.80636,
-          41.27094
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5115337766,
       "year": 2018
@@ -6580,13 +5771,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 999411,
-        "centroid": [
-          -7.3301,
-          41.26447
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5115309332,
       "year": 2018
@@ -6660,13 +5845,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 714118109,
-        "centroid": [
-          -7.90757,
-          37.79235
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5115191185,
       "year": 2018
@@ -6731,13 +5910,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 12673908,
-        "centroid": [
-          -7.18068,
-          41.26486
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5115182178,
       "year": 2018
@@ -6839,13 +6012,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 6331928,
-        "centroid": [
-          -7.72709,
-          41.73734
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5115110454,
       "year": 2018
@@ -6903,13 +6070,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1881788,
-        "centroid": [
-          -7.67668,
-          41.8107
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5115110454,
       "year": 2018
@@ -7010,13 +6171,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 182339934,
-        "centroid": [
-          -6.92181,
-          41.7907
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5114969485,
       "year": 2018
@@ -7123,13 +6278,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 328944820,
-        "centroid": [
-          -7.37421,
-          38.7124
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5114913099,
       "year": 2018
@@ -7186,13 +6335,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 1094463,
-        "centroid": [
-          -7.69514,
-          41.75541
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5114528165,
       "year": 2018
@@ -7268,13 +6411,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 3646653,
-        "centroid": [
-          -8.5006,
-          40.32454
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5114274649,
       "year": 2017
@@ -7376,13 +6513,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 24238257,
-        "centroid": [
-          -7.09969,
-          38.13361
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5114274650,
       "year": 2017
@@ -7471,13 +6602,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 32967055,
-        "centroid": [
-          -8.21552,
-          42.08045
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5114257069,
       "year": 2017
@@ -7554,13 +6679,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 178083854,
-        "centroid": [
-          -7.89555,
-          41.43698
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5108138997,
       "year": 2017
@@ -7625,13 +6744,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 46283215,
-        "centroid": [
-          -6.96492,
-          41.17269
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5107541009,
       "year": 2017
@@ -7721,13 +6834,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 500110564,
-        "centroid": [
-          -7.87373,
-          37.48418
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5107061493,
       "year": 2017
@@ -7871,13 +6978,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 76509148,
-        "centroid": [
-          -7.71611,
-          41.79022
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5107033894,
       "year": 2017
@@ -7933,13 +7034,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2766263,
-        "centroid": [
-          -7.75817,
-          41.69119
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5107033894,
       "year": 2017
@@ -8007,13 +7102,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 251306067,
-        "centroid": [
-          -6.44686,
-          41.56153
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5106927059,
       "year": 2017
@@ -8103,13 +7192,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 500110564,
-        "centroid": [
-          -7.87373,
-          37.48418
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106927060,
       "year": 2017
@@ -8170,13 +7253,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 309205024,
-        "centroid": [
-          -8.71634,
-          37.97529
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5106890981,
       "year": 2017
@@ -8257,13 +7334,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 479781866,
-        "centroid": [
-          -7.85351,
-          37.48015
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106885725,
       "year": 2017
@@ -8302,96 +7373,6 @@
               -8.71679,
               37.90112
             ]
-          ],
-          [
-            [
-              -8.71989,
-              37.78909
-            ],
-            [
-              -8.7153,
-              37.78364
-            ],
-            [
-              -8.69942,
-              37.79077
-            ],
-            [
-              -8.696,
-              37.7927
-            ],
-            [
-              -8.69276,
-              37.78749
-            ],
-            [
-              -8.69749,
-              37.78398
-            ],
-            [
-              -8.7044,
-              37.77999
-            ],
-            [
-              -8.71355,
-              37.76667
-            ],
-            [
-              -8.69614,
-              37.76884
-            ],
-            [
-              -8.68348,
-              37.77974
-            ],
-            [
-              -8.68003,
-              37.78697
-            ],
-            [
-              -8.6819,
-              37.78899
-            ],
-            [
-              -8.67283,
-              37.79368
-            ],
-            [
-              -8.67682,
-              37.79806
-            ],
-            [
-              -8.68537,
-              37.79365
-            ],
-            [
-              -8.69034,
-              37.80153
-            ],
-            [
-              -8.68452,
-              37.80416
-            ],
-            [
-              -8.69139,
-              37.81037
-            ],
-            [
-              -8.70711,
-              37.80038
-            ],
-            [
-              -8.7147,
-              37.80871
-            ],
-            [
-              -8.72094,
-              37.79661
-            ],
-            [
-              -8.71989,
-              37.78909
-            ]
           ]
         ]
       },
@@ -8422,13 +7403,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 482752112,
-        "centroid": [
-          -8.65972,
-          37.69578
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106885726,
       "year": 2017
@@ -8505,13 +7480,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 500482092,
-        "centroid": [
-          -8.13074,
-          37.5349
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106874303,
       "year": 2017
@@ -8579,13 +7548,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 30023974,
-        "centroid": [
-          -7.58227,
-          39.16224
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5106874304,
       "year": 2017
@@ -8641,13 +7604,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 998811,
-        "centroid": [
-          -7.31225,
-          41.28623
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5106833280,
       "year": 2017
@@ -8736,13 +7693,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 391081816,
-        "centroid": [
-          -8.18199,
-          40.57945
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106821848,
       "year": 2017
@@ -8832,13 +7783,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 608211936,
-        "centroid": [
-          -7.86956,
-          37.47629
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106600960,
       "year": 2017
@@ -8928,13 +7873,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 348868764,
-        "centroid": [
-          -8.23836,
-          38.21246
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5106600959,
       "year": 2017
@@ -9224,13 +8163,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 5425949,
-        "centroid": [
-          -7.78092,
-          41.61391
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5106600961,
       "year": 2017
@@ -9317,13 +8250,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 506957715,
-        "centroid": [
-          -7.36766,
-          38.04068
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5106577371,
       "year": 2017
@@ -9412,13 +8339,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 742362,
-        "centroid": [
-          -7.30156,
-          40.43438
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5106555866,
       "year": 2017
@@ -9495,13 +8416,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 680497,
-        "centroid": [
-          -7.32108,
-          40.41142
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5106547111,
       "year": 2017
@@ -9557,13 +8472,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 154705,
-        "centroid": [
-          -8.50819,
-          37.30653
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 5106509268,
       "year": 2017
@@ -9619,13 +8528,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1047604,
-        "centroid": [
-          -7.15838,
-          41.75814
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5106449634,
       "year": 2017
@@ -9715,13 +8618,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 4042184,
-        "centroid": [
-          -7.615,
-          40.15767
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5106404695,
       "year": 2017
@@ -9756,82 +8653,6 @@
               -6.88733,
               40.97426
             ]
-          ],
-          [
-            [
-              -7.0242,
-              41.00301
-            ],
-            [
-              -7.02402,
-              41.00059
-            ],
-            [
-              -7.02074,
-              40.99436
-            ],
-            [
-              -7.01911,
-              40.99347
-            ],
-            [
-              -7.01369,
-              40.9937
-            ],
-            [
-              -7.0113,
-              40.9997
-            ],
-            [
-              -6.99862,
-              40.9996
-            ],
-            [
-              -6.9988,
-              41.01291
-            ],
-            [
-              -7.00219,
-              41.01304
-            ],
-            [
-              -7.01547,
-              41.00694
-            ],
-            [
-              -7.02228,
-              41.00677
-            ],
-            [
-              -7.0238,
-              41.00549
-            ],
-            [
-              -7.0242,
-              41.00301
-            ]
-          ],
-          [
-            [
-              -7.0316,
-              40.97857
-            ],
-            [
-              -7.02265,
-              40.97485
-            ],
-            [
-              -6.99773,
-              40.98247
-            ],
-            [
-              -7.00027,
-              40.98731
-            ],
-            [
-              -7.0316,
-              40.97857
-            ]
           ]
         ]
       },
@@ -9859,13 +8680,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 81147973,
-        "centroid": [
-          -7.05539,
-          40.99044
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5106370297,
       "year": 2017
@@ -9926,13 +8741,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 133276892,
-        "centroid": [
-          -8.02584,
-          37.67003
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5105788080,
       "year": 2017
@@ -10052,13 +8861,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 344709044,
-        "centroid": [
-          -8.62355,
-          38.33909
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5105788081,
       "year": 2017
@@ -10123,13 +8926,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 200603339,
-        "centroid": [
-          -8.12531,
-          37.6659
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5105774356,
       "year": 2017
@@ -10191,13 +8988,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 8519560,
-        "centroid": [
-          -7.31945,
-          40.46905
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5105766494,
       "year": 2017
@@ -10261,13 +9052,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 23422923,
-        "centroid": [
-          -7.90977,
-          41.68922
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5105745530,
       "year": 2017
@@ -10422,13 +9207,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 271609376,
-        "centroid": [
-          -7.66863,
-          41.07578
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5105382870,
       "year": 2016
@@ -10499,13 +9278,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 10749361,
-        "centroid": [
-          -7.43855,
-          41.03423
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5105382870,
       "year": 2016
@@ -10596,13 +9369,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 97918288,
-        "centroid": [
-          -6.93888,
-          41.24504
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5105382871,
       "year": 2016
@@ -10663,13 +9430,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 848443,
-        "centroid": [
-          -7.53049,
-          41.65769
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5105308146,
       "year": 2016
@@ -10763,13 +9524,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 9070396,
-        "centroid": [
-          -7.30827,
-          40.47092
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 5105263581,
       "year": 2016
@@ -10860,13 +9615,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 56647758,
-        "centroid": [
-          -7.04848,
-          41.0128
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 5105263582,
       "year": 2016
@@ -10945,176 +9694,6 @@
               -7.32332,
               40.51168
             ]
-          ],
-          [
-            [
-              -7.31754,
-              40.41821
-            ],
-            [
-              -7.32046,
-              40.41548
-            ],
-            [
-              -7.31486,
-              40.41152
-            ],
-            [
-              -7.32099,
-              40.40603
-            ],
-            [
-              -7.32812,
-              40.41067
-            ],
-            [
-              -7.32395,
-              40.41429
-            ],
-            [
-              -7.32856,
-              40.41728
-            ],
-            [
-              -7.32432,
-              40.41586
-            ],
-            [
-              -7.32305,
-              40.41904
-            ],
-            [
-              -7.3244,
-              40.42001
-            ],
-            [
-              -7.32187,
-              40.42103
-            ],
-            [
-              -7.31754,
-              40.41821
-            ]
-          ],
-          [
-            [
-              -7.29444,
-              40.43358
-            ],
-            [
-              -7.29269,
-              40.43154
-            ],
-            [
-              -7.29346,
-              40.42686
-            ],
-            [
-              -7.29602,
-              40.42922
-            ],
-            [
-              -7.29418,
-              40.43024
-            ],
-            [
-              -7.29697,
-              40.43328
-            ],
-            [
-              -7.3045,
-              40.43005
-            ],
-            [
-              -7.30407,
-              40.43153
-            ],
-            [
-              -7.30693,
-              40.4386
-            ],
-            [
-              -7.3055,
-              40.43951
-            ],
-            [
-              -7.30141,
-              40.44011
-            ],
-            [
-              -7.29245,
-              40.43898
-            ],
-            [
-              -7.29034,
-              40.43602
-            ],
-            [
-              -7.29444,
-              40.43358
-            ]
-          ],
-          [
-            [
-              -7.33235,
-              40.48225
-            ],
-            [
-              -7.33008,
-              40.48304
-            ],
-            [
-              -7.28104,
-              40.48189
-            ],
-            [
-              -7.27971,
-              40.48088
-            ],
-            [
-              -7.28774,
-              40.46571
-            ],
-            [
-              -7.29339,
-              40.4676
-            ],
-            [
-              -7.29459,
-              40.46486
-            ],
-            [
-              -7.2962,
-              40.46207
-            ],
-            [
-              -7.29707,
-              40.46137
-            ],
-            [
-              -7.30223,
-              40.46131
-            ],
-            [
-              -7.3103,
-              40.45202
-            ],
-            [
-              -7.31434,
-              40.45585
-            ],
-            [
-              -7.31635,
-              40.4565
-            ],
-            [
-              -7.33265,
-              40.45661
-            ],
-            [
-              -7.33235,
-              40.48225
-            ]
           ]
         ]
       },
@@ -11144,13 +9723,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 127983890,
-        "centroid": [
-          -7.26933,
-          40.41321
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575785483,
       "year": 2016
@@ -11232,13 +9805,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 224708140,
-        "centroid": [
-          -7.4608,
-          41.00286
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575771150,
       "year": 2016
@@ -11342,13 +9909,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 1484582,
-        "centroid": [
-          -7.37406,
-          40.40114
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575756782,
       "year": 2016
@@ -11428,13 +9989,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 1126309,
-        "centroid": [
-          -7.31281,
-          40.42438
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575756782,
       "year": 2016
@@ -11506,13 +10061,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 675623,
-        "centroid": [
-          -7.34807,
-          40.43727
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575756782,
       "year": 2016
@@ -11621,13 +10170,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 250052391,
-        "centroid": [
-          -8.69651,
-          41.74222
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575745813,
       "year": 2016
@@ -11710,54 +10253,6 @@
               -7.95939,
               41.38671
             ]
-          ],
-          [
-            [
-              -8.12273,
-              41.33864
-            ],
-            [
-              -8.11121,
-              41.33302
-            ],
-            [
-              -8.10651,
-              41.33855
-            ],
-            [
-              -8.11773,
-              41.34404
-            ],
-            [
-              -8.12273,
-              41.33864
-            ],
-            [
-              -8.12273,
-              41.33864
-            ]
-          ],
-          [
-            [
-              -8.10785,
-              41.34848
-            ],
-            [
-              -8.10755,
-              41.35499
-            ],
-            [
-              -8.11765,
-              41.35474
-            ],
-            [
-              -8.11755,
-              41.34644
-            ],
-            [
-              -8.10785,
-              41.34848
-            ]
           ]
         ]
       },
@@ -11787,13 +10282,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 113883926,
-        "centroid": [
-          -8.14893,
-          41.3372
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575740148,
       "year": 2016
@@ -11912,54 +10401,6 @@
               -7.23668,
               40.80732
             ]
-          ],
-          [
-            [
-              -7.27576,
-              40.78313
-            ],
-            [
-              -7.27452,
-              40.76949
-            ],
-            [
-              -7.25751,
-              40.776
-            ],
-            [
-              -7.2359,
-              40.78788
-            ],
-            [
-              -7.24459,
-              40.79516
-            ],
-            [
-              -7.27576,
-              40.78313
-            ]
-          ],
-          [
-            [
-              -7.34506,
-              40.74333
-            ],
-            [
-              -7.34514,
-              40.73615
-            ],
-            [
-              -7.33684,
-              40.73609
-            ],
-            [
-              -7.33675,
-              40.74327
-            ],
-            [
-              -7.34506,
-              40.74333
-            ]
           ]
         ]
       },
@@ -11989,13 +10430,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 122686932,
-        "centroid": [
-          -7.13775,
-          40.81907
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575740146,
       "year": 2016
@@ -12183,13 +10618,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 130313512,
-        "centroid": [
-          -7.10329,
-          39.82535
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575740147,
       "year": 2016
@@ -12269,13 +10698,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2231712,
-        "centroid": [
-          -6.95599,
-          39.83371
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575740147,
       "year": 2016
@@ -12359,13 +10782,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 536426958,
-        "centroid": [
-          -7.23322,
-          39.05505
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 575720740,
       "year": 2016
@@ -12427,13 +10844,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 986964,
-        "centroid": [
-          -7.76695,
-          41.60429
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575708187,
       "year": 2016
@@ -12523,13 +10934,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 985162,
-        "centroid": [
-          -7.79633,
-          41.62165
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575708187,
       "year": 2016
@@ -12591,13 +10996,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 782357,
-        "centroid": [
-          -7.73492,
-          41.60989
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575708187,
       "year": 2016
@@ -12675,13 +11074,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 328409599,
-        "centroid": [
-          -8.1262,
-          40.91845
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575627279,
       "year": 2016
@@ -12738,13 +11131,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 12537834,
-        "centroid": [
-          -8.23512,
-          42.03876
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 575619712,
       "year": 2016
@@ -12800,13 +11187,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2020789,
-        "centroid": [
-          -7.64696,
-          41.81351
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575619713,
       "year": 2016
@@ -12925,13 +11306,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 224334189,
-        "centroid": [
-          -8.71111,
-          41.89829
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575619714,
       "year": 2016
@@ -12990,13 +11365,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 264304498,
-        "centroid": [
-          -7.67713,
-          39.87444
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575619716,
       "year": 2016
@@ -13099,13 +11468,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 294071671,
-        "centroid": [
-          -8.62219,
-          41.74087
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575603341,
       "year": 2016
@@ -13188,13 +11551,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 120581964,
-        "centroid": [
-          -7.91974,
-          41.71717
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575593131,
       "year": 2016
@@ -13375,13 +11732,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 91063162,
-        "centroid": [
-          -8.70249,
-          41.92033
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575566029,
       "year": 2016
@@ -13445,13 +11796,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 2861348,
-        "centroid": [
-          -7.22466,
-          40.80505
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575566030,
       "year": 2016
@@ -13517,13 +11862,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 251099413,
-        "centroid": [
-          -7.38324,
-          41.52346
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575562019,
       "year": 2016
@@ -13650,13 +11989,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 170585460,
-        "centroid": [
-          -7.28903,
-          41.01896
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575539811,
       "year": 2016
@@ -13726,13 +12059,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 135070488,
-        "centroid": [
-          -7.2645,
-          39.21034
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575539812,
       "year": 2016
@@ -13827,13 +12154,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 45790987,
-        "centroid": [
-          -7.25218,
-          41.1227
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575539813,
       "year": 2016
@@ -13895,13 +12216,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 1682095,
-        "centroid": [
-          -8.03263,
-          39.84384
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575539814,
       "year": 2016
@@ -14098,13 +12413,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1338577,
-        "centroid": [
-          -8.84711,
-          39.94523
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575539815,
       "year": 2016
@@ -14135,50 +12444,6 @@
               -8.09884,
               41.36756
             ]
-          ],
-          [
-            [
-              -8.12273,
-              41.33864
-            ],
-            [
-              -8.11121,
-              41.33302
-            ],
-            [
-              -8.10651,
-              41.33855
-            ],
-            [
-              -8.11773,
-              41.34404
-            ],
-            [
-              -8.12273,
-              41.33864
-            ]
-          ],
-          [
-            [
-              -8.11765,
-              41.35474
-            ],
-            [
-              -8.11755,
-              41.34644
-            ],
-            [
-              -8.10785,
-              41.34848
-            ],
-            [
-              -8.10755,
-              41.35499
-            ],
-            [
-              -8.11765,
-              41.35474
-            ]
           ]
         ]
       },
@@ -14207,13 +12472,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 28594897,
-        "centroid": [
-          -8.15154,
-          41.34637
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 575519570,
       "year": 2016
@@ -14324,13 +12583,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 4399502,
-        "centroid": [
-          -7.00536,
-          40.99282
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 575388783,
       "year": 2016
@@ -14561,13 +12814,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 44955439,
-        "centroid": [
-          -8.67033,
-          41.82031
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575388781,
       "year": 2016
@@ -14650,13 +12897,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2745830,
-        "centroid": [
-          -8.6764,
-          41.87044
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575388781,
       "year": 2016
@@ -14831,13 +13072,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 14150928,
-        "centroid": [
-          -6.98102,
-          40.98865
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 575388782,
       "year": 2016
@@ -14967,13 +13202,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 8176623,
-        "centroid": [
-          -8.65989,
-          41.81378
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 575327602,
       "year": 2016
@@ -15029,13 +13258,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 232595,
-        "centroid": [
-          -8.65711,
-          41.70981
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 575255560,
       "year": 2016
@@ -15108,13 +13331,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 365714,
-        "centroid": [
-          -7.2917,
-          40.46405
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575183424,
       "year": 2016
@@ -15200,13 +13417,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 498918,
-        "centroid": [
-          -8.70222,
-          41.85662
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575134363,
       "year": 2016
@@ -15275,13 +13486,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 92366957,
-        "centroid": [
-          -7.63803,
-          40.53073
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 575113155,
       "year": 2016
@@ -15346,13 +13551,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 478156,
-        "centroid": [
-          -7.6136,
-          40.62981
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 575098809,
       "year": 2016
@@ -15431,13 +13630,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 72881976,
-        "centroid": [
-          -8.55351,
-          41.6567
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 574981486,
       "year": 2016
@@ -15511,13 +13704,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 20616191,
-        "centroid": [
-          -7.69079,
-          41.69804
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 574903257,
       "year": 2016
@@ -15574,13 +13761,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 9771803,
-        "centroid": [
-          -7.10494,
-          40.98684
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 574708502,
       "year": 2016
@@ -15667,28 +13848,6 @@
               -7.67457,
               41.66623
             ]
-          ],
-          [
-            [
-              -7.8742,
-              41.65004
-            ],
-            [
-              -7.86517,
-              41.65002
-            ],
-            [
-              -7.86514,
-              41.65658
-            ],
-            [
-              -7.87417,
-              41.6566
-            ],
-            [
-              -7.8742,
-              41.65004
-            ]
           ]
         ]
       },
@@ -15717,13 +13876,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 97001315,
-        "centroid": [
-          -7.89726,
-          41.63477
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 574587636,
       "year": 2016
@@ -15788,13 +13941,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 46283215,
-        "centroid": [
-          -6.96492,
-          41.17269
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 574439160,
       "year": 2016
@@ -15886,13 +14033,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 371962,
-        "centroid": [
-          -8.64243,
-          41.9687
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 574441702,
       "year": 2016
@@ -15977,13 +14118,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1725028,
-        "centroid": [
-          -9.21537,
-          39.11405
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 574344829,
       "year": 2016
@@ -16051,13 +14186,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 2797802,
-        "centroid": [
-          -8.95675,
-          39.58388
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 574313798,
       "year": 2016
@@ -16113,13 +14242,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2186586,
-        "centroid": [
-          -7.09368,
-          40.61221
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 574294910,
       "year": 2016
@@ -16183,13 +14306,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 6350526,
-        "centroid": [
-          -6.96951,
-          40.59121
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 574294910,
       "year": 2016
@@ -16251,13 +14368,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 33009,
-        "centroid": [
-          -7.86964,
-          41.65351
-        ],
-        "minzoom": 10
+        "opacity": 0.3
       },
       "id": 574294911,
       "year": 2016
@@ -16325,13 +14436,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 665640,
-        "centroid": [
-          -8.5022,
-          40.15684
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 574216625,
       "year": 2016
@@ -16403,13 +14508,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1748204,
-        "centroid": [
-          -8.48578,
-          40.1603
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 574216626,
       "year": 2016
@@ -16489,13 +14588,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 59348,
-        "centroid": [
-          -8.83289,
-          39.95667
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 574176273,
       "year": 2016
@@ -16579,13 +14672,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 101144,
-        "centroid": [
-          -8.83706,
-          39.95008
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 574176273,
       "year": 2016
@@ -16642,13 +14729,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 163039,
-        "centroid": [
-          -8.11449,
-          41.33853
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 574125828,
       "year": 2016
@@ -16719,13 +14800,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 206955850,
-        "centroid": [
-          -7.25025,
-          40.05024
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 574098133,
       "year": 2016
@@ -16978,13 +15053,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 8713723,
-        "centroid": [
-          -8.92372,
-          39.58958
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 574098134,
       "year": 2016
@@ -17019,36 +15088,6 @@
               -8.37447,
               38.68619
             ]
-          ],
-          [
-            [
-              -8.11602,
-              38.53004
-            ],
-            [
-              -8.07888,
-              38.47623
-            ],
-            [
-              -8.05079,
-              38.48837
-            ],
-            [
-              -8.06772,
-              38.54828
-            ],
-            [
-              -8.13069,
-              38.58396
-            ],
-            [
-              -8.15752,
-              38.5715
-            ],
-            [
-              -8.11602,
-              38.53004
-            ]
           ]
         ]
       },
@@ -17079,13 +15118,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 364482351,
-        "centroid": [
-          -8.31206,
-          38.59556
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 574067627,
       "year": 2016
@@ -17141,13 +15174,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 1565746,
-        "centroid": [
-          -7.01992,
-          40.97874
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 573943618,
       "year": 2016
@@ -17231,13 +15258,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 174118869,
-        "centroid": [
-          -7.84847,
-          38.60205
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 573908774,
       "year": 2016
@@ -17293,13 +15314,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 14329118,
-        "centroid": [
-          -7.85134,
-          40.80601
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 573847701,
       "year": 2016
@@ -17355,13 +15370,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 7963703,
-        "centroid": [
-          -7.53578,
-          41.50466
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 573685541,
       "year": 2016
@@ -17511,13 +15520,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 6419280,
-        "centroid": [
-          -7.32963,
-          40.43986
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 573665097,
       "year": 2016
@@ -17581,13 +15584,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 448317,
-        "centroid": [
-          -8.68615,
-          39.81141
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 573398959,
       "year": 2016
@@ -17643,13 +15640,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 536072,
-        "centroid": [
-          -8.69178,
-          39.80702
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 573398959,
       "year": 2016
@@ -17770,13 +15761,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 290765191,
-        "centroid": [
-          -7.35531,
-          39.14888
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 572870073,
       "year": 2015
@@ -17864,13 +15849,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1369650,
-        "centroid": [
-          -8.57792,
-          39.79064
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 571100346,
       "year": 2015
@@ -17986,13 +15965,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3189207,
-        "centroid": [
-          -8.56658,
-          39.81125
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 571100347,
       "year": 2015
@@ -18088,13 +16061,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 3172903,
-        "centroid": [
-          -8.50376,
-          40.17271
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 571113429,
       "year": 2015
@@ -18162,13 +16129,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 29804198,
-        "centroid": [
-          -7.52991,
-          41.39665
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 571076219,
       "year": 2015
@@ -18236,13 +16197,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 46065151,
-        "centroid": [
-          -8.31803,
-          41.77167
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 571076220,
       "year": 2015
@@ -18344,13 +16299,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 245640670,
-        "centroid": [
-          -7.391,
-          41.36519
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 571032186,
       "year": 2015
@@ -18437,40 +16386,6 @@
               -7.35634,
               41.84056
             ]
-          ],
-          [
-            [
-              -7.63448,
-              41.70683
-            ],
-            [
-              -7.63397,
-              41.68401
-            ],
-            [
-              -7.54968,
-              41.68378
-            ],
-            [
-              -7.55025,
-              41.71126
-            ],
-            [
-              -7.51979,
-              41.78284
-            ],
-            [
-              -7.65765,
-              41.78357
-            ],
-            [
-              -7.66707,
-              41.71091
-            ],
-            [
-              -7.63448,
-              41.70683
-            ]
           ]
         ]
       },
@@ -18497,13 +16412,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 543709111,
-        "centroid": [
-          -7.44488,
-          41.7353
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 571018950,
       "year": 2015
@@ -18567,13 +16476,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 24388012,
-        "centroid": [
-          -8.64673,
-          41.98521
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570987551,
       "year": 2015
@@ -18649,13 +16552,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1280281,
-        "centroid": [
-          -8.49679,
-          40.2844
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570987545,
       "year": 2015
@@ -18711,13 +16608,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 104801,
-        "centroid": [
-          -6.85583,
-          40.60436
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 570987546,
       "year": 2015
@@ -18779,13 +16670,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 453041,
-        "centroid": [
-          -8.66158,
-          41.84418
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570987547,
       "year": 2015
@@ -18841,13 +16726,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 58242,
-        "centroid": [
-          -7.34096,
-          40.7397
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 570987548,
       "year": 2015
@@ -18932,13 +16811,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 970182,
-        "centroid": [
-          -8.70577,
-          39.86948
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570987549,
       "year": 2015
@@ -19010,13 +16883,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1383324,
-        "centroid": [
-          -8.63398,
-          39.86404
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570987550,
       "year": 2015
@@ -19072,13 +16939,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 113043845,
-        "centroid": [
-          -8.20176,
-          41.23715
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 570978150,
       "year": 2015
@@ -19135,13 +16996,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 3677070,
-        "centroid": [
-          -7.73537,
-          41.8282
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570978151,
       "year": 2015
@@ -19236,13 +17091,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 855300805,
-        "centroid": [
-          -8.0486,
-          38.25933
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 570936635,
       "year": 2015
@@ -19378,13 +17227,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 4036992,
-        "centroid": [
-          -8.38795,
-          40.50328
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570890406,
       "year": 2015
@@ -19461,13 +17304,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 526373,
-        "centroid": [
-          -8.93069,
-          39.31841
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570852557,
       "year": 2015
@@ -19523,13 +17360,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 1047604,
-        "centroid": [
-          -7.15838,
-          41.75814
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570804170,
       "year": 2015
@@ -19602,13 +17433,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1675316,
-        "centroid": [
-          -7.28245,
-          40.44817
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570804171,
       "year": 2015
@@ -19681,13 +17506,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 7974825,
-        "centroid": [
-          -8.35707,
-          41.77958
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570804172,
       "year": 2015
@@ -19784,13 +17603,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1088810,
-        "centroid": [
-          -8.42546,
-          40.49861
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570804173,
       "year": 2015
@@ -19863,13 +17676,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 24463399,
-        "centroid": [
-          -7.3203,
-          41.29874
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570684014,
       "year": 2015
@@ -19930,13 +17737,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 37646817,
-        "centroid": [
-          -7.2441,
-          41.26546
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 570684015,
       "year": 2015
@@ -19993,13 +17794,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 8651551,
-        "centroid": [
-          -7.31883,
-          41.26437
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570684016,
       "year": 2015
@@ -20056,13 +17851,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 24018852,
-        "centroid": [
-          -8.15584,
-          41.15632
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570684017,
       "year": 2015
@@ -20119,13 +17908,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 17376979,
-        "centroid": [
-          -7.28598,
-          41.17667
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 570684018,
       "year": 2015
@@ -20263,13 +18046,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3403646,
-        "centroid": [
-          -8.24307,
-          40.42605
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570172031,
       "year": 2015
@@ -20350,13 +18127,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1633037,
-        "centroid": [
-          -9.23284,
-          40.21341
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570042562,
       "year": 2015
@@ -20449,13 +18220,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 95929,
-        "centroid": [
-          -8.91113,
-          39.3263
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 570042563,
       "year": 2015
@@ -20600,13 +18365,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 593371,
-        "centroid": [
-          -8.90625,
-          39.31626
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 570042563,
       "year": 2015
@@ -20721,13 +18480,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 306544677,
-        "centroid": [
-          -6.80943,
-          41.29416
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 570042564,
       "year": 2015
@@ -20912,13 +18665,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 526507,
-        "centroid": [
-          -8.91594,
-          39.32889
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569993411,
       "year": 2015
@@ -20976,13 +18723,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 70285,
-        "centroid": [
-          -8.58173,
-          41.61864
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 569904245,
       "year": 2015
@@ -21044,13 +18785,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 929577,
-        "centroid": [
-          -8.56648,
-          41.61134
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569904245,
       "year": 2015
@@ -21108,13 +18843,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 16010001,
-        "centroid": [
-          -6.98492,
-          41.51311
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 569871872,
       "year": 2015
@@ -21172,13 +18901,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 27507484,
-        "centroid": [
-          -6.56954,
-          41.52622
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 569871870,
       "year": 2015
@@ -21236,13 +18959,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 16008727,
-        "centroid": [
-          -7.17117,
-          41.55533
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 569871871,
       "year": 2015
@@ -21306,13 +19023,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2861406,
-        "centroid": [
-          -9.04111,
-          40.80505
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569851363,
       "year": 2015
@@ -21392,13 +19103,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2404318,
-        "centroid": [
-          -8.43589,
-          40.4893
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569861788,
       "year": 2015
@@ -21523,13 +19228,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 600042,
-        "centroid": [
-          -9.15231,
-          38.61812
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569851008,
       "year": 2015
@@ -21654,13 +19353,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 939310,
-        "centroid": [
-          -9.15214,
-          38.59843
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569851008,
       "year": 2015
@@ -21737,13 +19430,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 76490,
-        "centroid": [
-          -8.2513,
-          41.65787
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 569800613,
       "year": 2015
@@ -21831,13 +19518,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 359082,
-        "centroid": [
-          -8.70177,
-          40.06651
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569766845,
       "year": 2015
@@ -21893,13 +19574,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 273959,
-        "centroid": [
-          -8.68315,
-          40.06198
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 569766845,
       "year": 2015
@@ -22008,13 +19683,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1120832,
-        "centroid": [
-          -8.92524,
-          39.30873
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 569727431,
       "year": 2015
@@ -22071,13 +19740,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 13375242,
-        "centroid": [
-          -7.0901,
-          41.71984
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 567600515,
       "year": 2015
@@ -22209,13 +19872,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 133555041,
-        "centroid": [
-          -8.46813,
-          38.22659
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 567374162,
       "year": 2015
@@ -22310,13 +19967,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 45509822,
-        "centroid": [
-          -7.25119,
-          41.12269
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 567154523,
       "year": 2015
@@ -22381,13 +20032,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 200603339,
-        "centroid": [
-          -8.12531,
-          37.6659
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 566813869,
       "year": 2015
@@ -22447,13 +20092,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 5618159,
-        "centroid": [
-          -8.86524,
-          39.90839
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 566813870,
       "year": 2015
@@ -22527,13 +20166,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 140784682,
-        "centroid": [
-          -7.98118,
-          37.57651
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 566813871,
       "year": 2015
@@ -22657,13 +20290,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 243179448,
-        "centroid": [
-          -6.95975,
-          41.50595
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 566813872,
       "year": 2015
@@ -22731,13 +20358,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 4753679,
-        "centroid": [
-          -7.65944,
-          41.13313
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 566778554,
       "year": 2015
@@ -22874,13 +20495,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1957467,
-        "centroid": [
-          -8.41423,
-          40.50067
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566773198,
       "year": 2015
@@ -22985,13 +20600,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 772690,
-        "centroid": [
-          -8.42144,
-          40.48985
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566773199,
       "year": 2015
@@ -23055,13 +20664,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 910523,
-        "centroid": [
-          -8.87361,
-          39.99413
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566643684,
       "year": 2015
@@ -23133,13 +20736,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 536789010,
-        "centroid": [
-          -7.60768,
-          37.45303
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 566302007,
       "year": 2015
@@ -23207,13 +20804,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 894689,
-        "centroid": [
-          -8.7586,
-          39.78629
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566219267,
       "year": 2015
@@ -23317,13 +20908,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 1555152,
-        "centroid": [
-          -8.70543,
-          39.78565
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566219268,
       "year": 2015
@@ -23388,13 +20973,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 18286169,
-        "centroid": [
-          -8.07516,
-          41.53337
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 566184885,
       "year": 2015
@@ -23488,13 +21067,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 344223490,
-        "centroid": [
-          -8.58477,
-          38.2083
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 566184887,
       "year": 2015
@@ -23575,13 +21148,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1931412,
-        "centroid": [
-          -8.69568,
-          39.98076
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566145363,
       "year": 2015
@@ -23709,13 +21276,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1420437,
-        "centroid": [
-          -8.90187,
-          39.59132
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566145364,
       "year": 2015
@@ -23791,13 +21352,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 253026613,
-        "centroid": [
-          -8.09262,
-          40.0872
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 566145366,
       "year": 2015
@@ -23862,13 +21417,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 768771508,
-        "centroid": [
-          -7.57688,
-          37.67599
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 566145367,
       "year": 2015
@@ -23946,13 +21495,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 5869606,
-        "centroid": [
-          -8.85812,
-          40.03408
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 566144995,
       "year": 2015
@@ -24049,13 +21592,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 3023617,
-        "centroid": [
-          -8.92027,
-          39.3423
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 566108270,
       "year": 2015
@@ -24114,13 +21651,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 264304498,
-        "centroid": [
-          -7.67713,
-          39.87444
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 565952821,
       "year": 2014
@@ -24176,13 +21707,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 1047604,
-        "centroid": [
-          -7.15838,
-          41.75814
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 565902161,
       "year": 2014
@@ -24269,40 +21794,6 @@
               -7.35634,
               41.84056
             ]
-          ],
-          [
-            [
-              -7.63448,
-              41.70683
-            ],
-            [
-              -7.63397,
-              41.68401
-            ],
-            [
-              -7.54968,
-              41.68378
-            ],
-            [
-              -7.55025,
-              41.71126
-            ],
-            [
-              -7.51979,
-              41.78284
-            ],
-            [
-              -7.65765,
-              41.78357
-            ],
-            [
-              -7.66707,
-              41.71091
-            ],
-            [
-              -7.63448,
-              41.70683
-            ]
           ]
         ]
       },
@@ -24329,13 +21820,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 543709111,
-        "centroid": [
-          -7.44488,
-          41.7353
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 558683473,
       "year": 2014
@@ -24406,13 +21891,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 53418370,
-        "centroid": [
-          -7.99322,
-          41.31811
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 558701805,
       "year": 2014
@@ -24501,13 +21980,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 627842,
-        "centroid": [
-          -8.71287,
-          39.91488
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 558624515,
       "year": 2014
@@ -24592,13 +22065,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 894873,
-        "centroid": [
-          -8.80349,
-          39.92455
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 558624516,
       "year": 2014
@@ -24724,13 +22191,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 13523126,
-        "centroid": [
-          -7.96599,
-          37.57399
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 558600112,
       "year": 2014
@@ -24852,13 +22313,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 15431264,
-        "centroid": [
-          -7.92202,
-          37.55856
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 558600112,
       "year": 2014
@@ -24943,13 +22398,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 536418400,
-        "centroid": [
-          -7.23323,
-          39.05505
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 558545976,
       "year": 2014
@@ -25038,13 +22487,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 391081816,
-        "centroid": [
-          -8.18199,
-          40.57945
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 558545977,
       "year": 2014
@@ -25125,13 +22568,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 2162718,
-        "centroid": [
-          -7.62343,
-          40.80325
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 558494249,
       "year": 2014
@@ -25217,13 +22654,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 101686024,
-        "centroid": [
-          -7.58463,
-          39.22756
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 557547711,
       "year": 2014
@@ -25283,13 +22714,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1954015,
-        "centroid": [
-          -8.43771,
-          40.53558
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 556751848,
       "year": 2014
@@ -25372,13 +22797,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 372820761,
-        "centroid": [
-          -6.78005,
-          41.26526
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 556725410,
       "year": 2014
@@ -25436,13 +22855,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 4692933,
-        "centroid": [
-          -8.75818,
-          41.83899
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 525701094,
       "year": 2014
@@ -25520,13 +22933,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 3333028,
-        "centroid": [
-          -8.66764,
-          41.87994
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525701095,
       "year": 2014
@@ -25596,13 +23003,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 4871053,
-        "centroid": [
-          -8.67545,
-          41.8547
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 525701096,
       "year": 2014
@@ -25660,13 +23061,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 4885175,
-        "centroid": [
-          -8.60415,
-          41.81705
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 525701097,
       "year": 2014
@@ -25757,13 +23152,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 97918288,
-        "centroid": [
-          -6.93888,
-          41.24504
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 525682686,
       "year": 2014
@@ -25833,13 +23222,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 206955850,
-        "centroid": [
-          -7.25025,
-          40.05024
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 525695392,
       "year": 2014
@@ -25908,13 +23291,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1642988,
-        "centroid": [
-          -7.94141,
-          40.51643
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525691097,
       "year": 2014
@@ -26027,13 +23404,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3047101,
-        "centroid": [
-          -8.61324,
-          40.22558
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525691098,
       "year": 2014
@@ -26133,13 +23504,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 3798310,
-        "centroid": [
-          -8.46614,
-          40.32127
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 525691099,
       "year": 2014
@@ -26260,13 +23625,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 508668234,
-        "centroid": [
-          -8.33586,
-          38.28288
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 525710455,
       "year": 2014
@@ -26327,13 +23686,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 133276892,
-        "centroid": [
-          -8.02584,
-          37.67003
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 525710456,
       "year": 2014
@@ -26420,13 +23773,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 661598402,
-        "centroid": [
-          -7.36703,
-          38.04265
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 525704979,
       "year": 2014
@@ -26611,13 +23958,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 526507,
-        "centroid": [
-          -8.91594,
-          39.32889
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525707085,
       "year": 2014
@@ -26677,13 +24018,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 2327430,
-        "centroid": [
-          -7.26172,
-          40.78145
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525696898,
       "year": 2014
@@ -26747,13 +24082,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1530508,
-        "centroid": [
-          -7.29431,
-          40.75898
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525696898,
       "year": 2014
@@ -26834,13 +24163,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 338707982,
-        "centroid": [
-          -8.23887,
-          38.21279
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 525679689,
       "year": 2014
@@ -26926,13 +24249,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 606017088,
-        "centroid": [
-          -7.87132,
-          37.47673
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 525679690,
       "year": 2014
@@ -27063,13 +24380,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 119138510,
-        "centroid": [
-          -8.01524,
-          40.70492
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 525679691,
       "year": 2014
@@ -27266,13 +24577,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1338577,
-        "centroid": [
-          -8.84711,
-          39.94523
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525683918,
       "year": 2014
@@ -27329,13 +24634,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 574757,
-        "centroid": [
-          -8.90321,
-          39.9071
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525689606,
       "year": 2014
@@ -27428,13 +24727,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1332128,
-        "centroid": [
-          -8.90392,
-          39.32927
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525689607,
       "year": 2014
@@ -27558,13 +24851,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 200284,
-        "centroid": [
-          -8.71125,
-          39.82045
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 525709812,
       "year": 2014
@@ -27648,13 +24935,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1412884,
-        "centroid": [
-          -8.69859,
-          39.94725
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52138600,
       "year": 2014
@@ -27714,13 +24995,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1542662,
-        "centroid": [
-          -8.42435,
-          40.49579
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52915468,
       "year": 2014
@@ -27782,13 +25057,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 168113020,
-        "centroid": [
-          -7.10433,
-          41.41968
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 53585614,
       "year": 2014
@@ -27868,13 +25137,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3821123,
-        "centroid": [
-          -8.28761,
-          40.10435
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52856917,
       "year": 2014
@@ -27987,13 +25250,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 708871,
-        "centroid": [
-          -9.16795,
-          39.43686
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52098603,
       "year": 2014
@@ -28169,13 +25426,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1537782,
-        "centroid": [
-          -9.21913,
-          39.35122
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 51009268,
       "year": 2013
@@ -28239,13 +25490,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 2130332,
-        "centroid": [
-          -8.82117,
-          39.95771
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 51132170,
       "year": 2013
@@ -28326,13 +25571,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 418323,
-        "centroid": [
-          -8.52888,
-          38.29234
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52401550,
       "year": 2013
@@ -28389,13 +25628,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 501219,
-        "centroid": [
-          -8.53189,
-          38.28325
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52401550,
       "year": 2013
@@ -28463,13 +25696,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 29804198,
-        "centroid": [
-          -7.52991,
-          41.39665
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51095556,
       "year": 2013
@@ -28562,13 +25789,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 344223490,
-        "centroid": [
-          -8.58477,
-          38.2083
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51597099,
       "year": 2013
@@ -28638,13 +25859,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 106814669,
-        "centroid": [
-          -7.59512,
-          41.73321
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 567030855,
       "year": 2015
@@ -28717,13 +25932,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 500338,
-        "centroid": [
-          -7.28306,
-          40.42372
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 567027593,
       "year": 2015
@@ -28779,13 +25988,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 538323,
-        "centroid": [
-          -7.72072,
-          40.73118
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525685705,
       "year": 2014
@@ -28883,13 +26086,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 3483853,
-        "centroid": [
-          -7.58499,
-          40.74133
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 525694840,
       "year": 2014
@@ -29025,13 +26222,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 10540466,
-        "centroid": [
-          -9.17122,
-          39.47005
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52648558,
       "year": 2014
@@ -29139,13 +26330,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 2894371,
-        "centroid": [
-          -8.4368,
-          40.48848
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 5916404,
       "year": 2014
@@ -29277,13 +26462,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 4394091,
-        "centroid": [
-          -8.67585,
-          39.97381
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51950780,
       "year": 2014
@@ -29347,13 +26526,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3019458,
-        "centroid": [
-          -8.60662,
-          39.97064
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 51031652,
       "year": 2013
@@ -29433,13 +26606,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 3996989,
-        "centroid": [
-          -8.61922,
-          40.00606
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51031653,
       "year": 2013
@@ -29571,13 +26738,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 4394091,
-        "centroid": [
-          -8.67585,
-          39.97381
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51031654,
       "year": 2013
@@ -29713,13 +26874,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 7299144,
-        "centroid": [
-          -8.71565,
-          40.41486
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53359943,
       "year": 2013
@@ -29799,13 +26954,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 4568401,
-        "centroid": [
-          -9.27834,
-          39.35658
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53359944,
       "year": 2013
@@ -29925,13 +27074,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 10658889,
-        "centroid": [
-          -8.67377,
-          40.40421
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53359945,
       "year": 2013
@@ -30011,13 +27154,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 12994558,
-        "centroid": [
-          -8.63342,
-          40.34767
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53359946,
       "year": 2013
@@ -30109,13 +27246,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 4583496,
-        "centroid": [
-          -8.75978,
-          40.27633
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53359947,
       "year": 2013
@@ -30265,13 +27396,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 903412179,
-        "centroid": [
-          -8.33623,
-          37.9486
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 52401551,
       "year": 2013
@@ -30328,13 +27453,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 575693,
-        "centroid": [
-          -8.90408,
-          39.90628
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 51955642,
       "year": 2013
@@ -30447,13 +27566,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 708627,
-        "centroid": [
-          -9.1688,
-          39.43606
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 51955643,
       "year": 2013
@@ -30513,13 +27626,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 5618225,
-        "centroid": [
-          -8.86611,
-          39.90758
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52796106,
       "year": 2013
@@ -30623,13 +27730,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 4602253,
-        "centroid": [
-          -8.21497,
-          40.17634
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51476704,
       "year": 2013
@@ -30777,13 +27878,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 5483469,
-        "centroid": [
-          -8.67881,
-          39.80186
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53670893,
       "year": 2013
@@ -30919,13 +28014,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 823641,
-        "centroid": [
-          -8.91011,
-          39.58519
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53670894,
       "year": 2013
@@ -30986,13 +28075,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1486344,
-        "centroid": [
-          -8.85964,
-          39.92424
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53238312,
       "year": 2013
@@ -31069,13 +28152,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 59482071,
-        "centroid": [
-          -8.21968,
-          37.9084
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 53238313,
       "year": 2013
@@ -31139,13 +28216,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 4753471,
-        "centroid": [
-          -7.66037,
-          41.13229
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52331759,
       "year": 2013
@@ -31212,13 +28283,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 219428506,
-        "centroid": [
-          -7.59646,
-          41.31643
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52331760,
       "year": 2013
@@ -31279,13 +28344,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 62668428,
-        "centroid": [
-          -7.83191,
-          41.45853
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52331761,
       "year": 2013
@@ -31342,13 +28401,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 6480640,
-        "centroid": [
-          -7.535,
-          41.65925
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52774091,
       "year": 2013
@@ -31460,13 +28513,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 1875731,
-        "centroid": [
-          -8.49922,
-          40.28306
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52774092,
       "year": 2013
@@ -31555,13 +28602,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 322481543,
-        "centroid": [
-          -8.19672,
-          39.6611
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51095557,
       "year": 2013
@@ -31678,13 +28719,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 2442510,
-        "centroid": [
-          -8.66698,
-          40.21538
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 51095558,
       "year": 2013
@@ -31764,13 +28799,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 46832899,
-        "centroid": [
-          -8.38485,
-          41.8053
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51095559,
       "year": 2013
@@ -31866,13 +28895,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 174108125,
-        "centroid": [
-          -8.47135,
-          41.22802
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51815876,
       "year": 2013
@@ -31959,56 +28982,6 @@
               -8.74347,
               41.88729
             ]
-          ],
-          [
-            [
-              -8.22911,
-              41.86112
-            ],
-            [
-              -8.7015,
-              41.85975
-            ],
-            [
-              -8.70005,
-              41.85471
-            ],
-            [
-              -8.69616,
-              41.85349
-            ],
-            [
-              -8.69819,
-              41.85237
-            ],
-            [
-              -8.69818,
-              41.8515
-            ],
-            [
-              -8.70264,
-              41.85148
-            ],
-            [
-              -8.70331,
-              41.8527
-            ],
-            [
-              -8.70571,
-              41.85269
-            ],
-            [
-              -8.70576,
-              41.85834
-            ],
-            [
-              -8.71082,
-              41.85832
-            ],
-            [
-              -8.22911,
-              41.86112
-            ]
           ]
         ]
       },
@@ -32036,13 +29009,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 17383570,
-        "centroid": [
-          -8.72266,
-          41.8685
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51815878,
       "year": 2013
@@ -32154,13 +29121,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 743236164,
-        "centroid": [
-          -8.62641,
-          38.49574
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 51815879,
       "year": 2013
@@ -32248,13 +29209,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 109922147,
-        "centroid": [
-          -8.29662,
-          41.01352
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51584930,
       "year": 2013
@@ -32419,13 +29374,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 95810357,
-        "centroid": [
-          -8.70221,
-          41.91714
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51948079,
       "year": 2013
@@ -32491,13 +29440,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 251088535,
-        "centroid": [
-          -7.38418,
-          41.52262
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51948080,
       "year": 2013
@@ -32612,13 +29555,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 92061646,
-        "centroid": [
-          -8.2375,
-          42.07229
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51319687,
       "year": 2013
@@ -32715,13 +29652,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 75620460,
-        "centroid": [
-          -7.71157,
-          41.75218
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51319688,
       "year": 2013
@@ -32788,13 +29719,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 170077693,
-        "centroid": [
-          -8.50135,
-          41.69673
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51319689,
       "year": 2013
@@ -32887,13 +29812,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 127652495,
-        "centroid": [
-          -8.177,
-          39.66617
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 53213027,
       "year": 2013
@@ -32963,13 +29882,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 252958,
-        "centroid": [
-          -8.66981,
-          41.82526
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 51759011,
       "year": 2013
@@ -33094,13 +30007,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 1170310,
-        "centroid": [
-          -7.0056,
-          41.00482
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53267890,
       "year": 2013
@@ -33221,13 +30128,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 4465312,
-        "centroid": [
-          -8.84304,
-          39.91197
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52211621,
       "year": 2013
@@ -33295,13 +30196,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 18786840,
-        "centroid": [
-          -8.16698,
-          37.87615
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52504856,
       "year": 2013
@@ -33386,13 +30281,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 2958172,
-        "centroid": [
-          -8.63559,
-          39.8512
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53095568,
       "year": 2013
@@ -33484,13 +30373,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 6969928,
-        "centroid": [
-          -8.55028,
-          39.77053
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53095569,
       "year": 2013
@@ -33550,13 +30433,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 37645567,
-        "centroid": [
-          -7.24505,
-          41.26462
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51572062,
       "year": 2013
@@ -33612,13 +30489,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 24019160,
-        "centroid": [
-          -8.15675,
-          41.15548
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53254005,
       "year": 2013
@@ -33674,13 +30545,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 113045298,
-        "centroid": [
-          -8.20267,
-          41.23631
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 53254006,
       "year": 2013
@@ -33736,13 +30601,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 3677023,
-        "centroid": [
-          -7.7363,
-          41.82735
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53254007,
       "year": 2013
@@ -33810,13 +30669,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 46061897,
-        "centroid": [
-          -8.31893,
-          41.77081
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 53254008,
       "year": 2013
@@ -33908,13 +30761,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1997280,
-        "centroid": [
-          -8.3261,
-          40.06738
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53254009,
       "year": 2013
@@ -33991,13 +30838,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1180419,
-        "centroid": [
-          -8.8406,
-          39.93152
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53254010,
       "year": 2013
@@ -34174,13 +31015,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 1537143,
-        "centroid": [
-          -9.21997,
-          39.35042
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 53105475,
       "year": 2013
@@ -34244,13 +31079,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 46233415,
-        "centroid": [
-          -7.94286,
-          38.33456
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52996913,
       "year": 2013
@@ -34322,13 +31151,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 24460006,
-        "centroid": [
-          -7.32126,
-          41.2979
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51704887,
       "year": 2013
@@ -34399,13 +31222,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 536762289,
-        "centroid": [
-          -7.6086,
-          37.45227
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 52087377,
       "year": 2013
@@ -34461,13 +31278,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 7612377,
-        "centroid": [
-          -7.30393,
-          41.18334
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52087378,
       "year": 2013
@@ -34551,13 +31362,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 45156326,
-        "centroid": [
-          -7.54444,
-          41.08129
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52054999,
       "year": 2013
@@ -34659,13 +31464,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 35377544,
-        "centroid": [
-          -7.50248,
-          41.0228
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51472729,
       "year": 2013
@@ -34741,13 +31540,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 253016776,
-        "centroid": [
-          -8.09352,
-          40.08638
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52233287,
       "year": 2013
@@ -34851,13 +31644,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 194174816,
-        "centroid": [
-          -8.56448,
-          41.34898
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52233288,
       "year": 2013
@@ -34925,13 +31712,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 79460342,
-        "centroid": [
-          -8.40429,
-          41.17052
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52233289,
       "year": 2013
@@ -35012,13 +31793,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 455568230,
-        "centroid": [
-          -8.67048,
-          37.72216
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5810478,
       "year": 2013
@@ -35093,13 +31868,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 634137319,
-        "centroid": [
-          -7.43658,
-          38.75736
-        ],
-        "minzoom": 5
+        "opacity": 0.3
       },
       "id": 5810479,
       "year": 2013
@@ -35163,13 +31932,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 24386615,
-        "centroid": [
-          -8.64762,
-          41.98435
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53678744,
       "year": 2013
@@ -35225,13 +31988,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 8648549,
-        "centroid": [
-          -7.31979,
-          41.26354
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52225917,
       "year": 2013
@@ -35315,13 +32072,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 1411964,
-        "centroid": [
-          -8.69947,
-          39.94644
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52063189,
       "year": 2013
@@ -35394,13 +32145,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 57314777,
-        "centroid": [
-          -6.98128,
-          41.12438
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51828573,
       "year": 2013
@@ -35482,13 +32227,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 377982605,
-        "centroid": [
-          -8.10566,
-          40.90341
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51148182,
       "year": 2013
@@ -35557,13 +32296,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 61917,
-        "centroid": [
-          -8.25266,
-          41.65679
-        ],
-        "minzoom": 9
+        "opacity": 0.3
       },
       "id": 51148183,
       "year": 2013
@@ -35650,56 +32383,6 @@
               -8.74347,
               41.88729
             ]
-          ],
-          [
-            [
-              -8.71083,
-              41.8597
-            ],
-            [
-              -8.7015,
-              41.85975
-            ],
-            [
-              -8.70005,
-              41.85471
-            ],
-            [
-              -8.69616,
-              41.85349
-            ],
-            [
-              -8.69819,
-              41.85237
-            ],
-            [
-              -8.69818,
-              41.8515
-            ],
-            [
-              -8.70264,
-              41.85148
-            ],
-            [
-              -8.70331,
-              41.8527
-            ],
-            [
-              -8.70571,
-              41.85269
-            ],
-            [
-              -8.70576,
-              41.85834
-            ],
-            [
-              -8.71082,
-              41.85832
-            ],
-            [
-              -8.71083,
-              41.8597
-            ]
           ]
         ]
       },
@@ -35727,13 +32410,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 19500708,
-        "centroid": [
-          -8.72388,
-          41.87094
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53414429,
       "year": 2013
@@ -35790,13 +32467,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 12656848,
-        "centroid": [
-          -7.37217,
-          40.44838
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53414430,
       "year": 2013
@@ -35920,13 +32591,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 15031995,
-        "centroid": [
-          -8.69114,
-          40.06517
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 53414431,
       "year": 2013
@@ -35995,13 +32660,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 79526789,
-        "centroid": [
-          -7.58338,
-          41.45244
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52301114,
       "year": 2013
@@ -36097,13 +32756,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 123017821,
-        "centroid": [
-          -8.41518,
-          41.071
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52301115,
       "year": 2013
@@ -36160,13 +32813,7 @@
         "src": "dre",
         "fill": "#ff0000",
         "stroke": "#cc0000",
-        "opacity": 0.3,
-        "area": 15420868,
-        "centroid": [
-          -7.58715,
-          41.46271
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51187148,
       "year": 2013
@@ -36243,13 +32890,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 5416534,
-        "centroid": [
-          -9.21954,
-          39.12342
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52228585,
       "year": 2013
@@ -36306,13 +32947,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 6953585,
-        "centroid": [
-          -9.20537,
-          39.15218
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52228586,
       "year": 2013
@@ -36401,13 +33036,7 @@
         "src": "dre",
         "fill": "#00ffff",
         "stroke": "#00cccc",
-        "opacity": 0.3,
-        "area": 174108125,
-        "centroid": [
-          -8.47135,
-          41.22802
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 51336623,
       "year": 2013
@@ -36505,13 +33134,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 2713285,
-        "centroid": [
-          -8.63677,
-          39.8657
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52016689,
       "year": 2013
@@ -36603,13 +33226,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 371510,
-        "centroid": [
-          -8.64333,
-          41.96785
-        ],
-        "minzoom": 8
+        "opacity": 0.3
       },
       "id": 52016690,
       "year": 2013
@@ -36675,13 +33292,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 52896247,
-        "centroid": [
-          -7.09137,
-          41.8405
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52630995,
       "year": 2013
@@ -36745,13 +33356,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 46274092,
-        "centroid": [
-          -6.96588,
-          41.17186
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52630996,
       "year": 2013
@@ -36811,13 +33416,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 160239536,
-        "centroid": [
-          -8.69676,
-          38.05067
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52630997,
       "year": 2013
@@ -36878,13 +33477,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 4822236,
-        "centroid": [
-          -8.47862,
-          41.71171
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52630998,
       "year": 2013
@@ -36945,13 +33538,7 @@
         "src": "dre",
         "fill": "#0000ff",
         "stroke": "#0000cc",
-        "opacity": 0.3,
-        "area": 6564228,
-        "centroid": [
-          -8.44664,
-          41.74601
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 52630998,
       "year": 2013
@@ -37043,13 +33630,7 @@
         "src": "dre",
         "fill": "#909090",
         "stroke": "#444444",
-        "opacity": 0.3,
-        "area": 360718426,
-        "centroid": [
-          -8.58667,
-          38.20746
-        ],
-        "minzoom": 6
+        "opacity": 0.3
       },
       "id": 52450279,
       "year": 2013
@@ -37151,13 +33732,7 @@
         "src": "dre",
         "fill": "#ff00ff",
         "stroke": "#cc00cc",
-        "opacity": 0.3,
-        "area": 35377544,
-        "centroid": [
-          -7.50248,
-          41.0228
-        ],
-        "minzoom": 7
+        "opacity": 0.3
       },
       "id": 51622849,
       "year": 2013
@@ -37167,8 +33742,8 @@
     "license": "ISC",
     "url": "mapadominerio.auportugal.eu",
     "author": "Nik Völker",
-    "export": "2019-06-07T19:56:57.805Z",
-    "zones": 377,
+    "export": "2019-05-28T19:20:56.552Z",
+    "zones": 374,
     "acts": [
       "Contrato para concessão de exploração",
       "Contrato para prospeção e pesquisa",
@@ -37259,7 +33834,6 @@
       "Minaport - Minas de Portugal, Lda.",
       "Minas de Cassiterite Sobreda, S.A.",
       "Minerália - Minas, Geotecnia e Construções, Lda.",
-      "Minerália - Minas, Geotécnia e Construções, Lda.",
       "Motamineral - Minerais Industriais, S.A.",
       "Motamineral - Minerais Indústrias, S.A.",
       "Opusgreen Agricultura e Exploração Mineira, Lda.",
@@ -37338,7 +33912,6 @@
       "nióbio",
       "níquel",
       "ouro",
-      "outros metais associado",
       "outros metais associados",
       "outros minerais",
       "outros minerais acessórios",

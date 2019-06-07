@@ -33,9 +33,12 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-landscape.jpg">
     <meta name="twitter:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-square.jpg">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
-    <title>Mapa do minério, Portugal Continental 2013-19</title>
+    <title>Mapa do Minério, Portugal Continental 2013-19</title>
     <style>
       html, body { width: 100vw; margin: 0; padding: 0;}
       h3, h2 { font-family: Verdana, Arial, sans-serif; text-align: left; padding: 0px; margin: 5px; }
@@ -44,6 +47,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
       hr { border: none; height: 1px; left: 0; width: 100%; color: #ccc; background-color: #ccc; }
       #map { position:absolute; top:0; bottom:0; width:60%; box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15); }
       #info { position:absolute; top:0; bottom:0; width:34%; margin: .1em 62%; overflow-y: scroll; }
+      #slider-range { width:90%; margin-left:10px; }
+      input[type=checkbox] { width: 20px; height: 20px; cursor: pointer; background: rgba(40,40,40,0.1); color:black; border: none; position: relative; left: -5px; top: -5px; }
+      input[type=checkbox]:checked {}
+
       @media screen and (max-width: 768px) {
          #map { height:60%; width:100%; bottom:0; }
          #info { top: 60.25%; width: 90%; left: 3%; margin: 0; overflow-y: auto; bottom: auto; }
@@ -65,13 +72,74 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
 
       }
       .footer a { color: inherit; text-decoration: none;} 
+
+     .map-overlay  {
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        background-color: #fff;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+        border-radius: 5px;
+        position: absolute;
+        width: 25%;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        display: none;
+    }
+
+        #menu {
+          background: #fff;
+          position: absolute;
+          z-index: 1;
+          top: 10px;
+          right: calc(40% + 50px);
+          border-radius: 5px;
+          width: 80px;
+          border: 2px solid rgba(0,0,0,0.1);
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+        }
+         
+        #menu a {
+          font-size: 13px;
+          color: #404040;
+          display: block;
+          margin: 0;
+          padding: 0;
+          padding: 10px;
+          text-decoration: none;
+          border-bottom: 1px solid rgba(0,0,0,0.15);
+          text-align: center;
+        }
+
+        #menu a:last-child {
+            border: none;
+        }
+
+        #menu a:hover {
+            background-color: #f2f2f2;
+            color: #000000;
+            border-color: rgba(255,255,255,0.1);
+        }
+
+        #menu a.active {
+            background-color: #3887be;
+            color: #ffffff;
+        }
+
+        #menu a.active:hover {
+            background: #3074a4;
+        }
+
+
     </style>
   </head>
   <body>
+
+    <div id='menu'></div>
     <div id='map'></div>
     <div id="info" class="changelog">
 
-      <h2>Mapa do minério</h2>
+      <h2>Mapa do Minério</h2>
       <h3>Portugal Continental 2013&#8209;2019</h3>
 
       <hr>
@@ -79,27 +147,27 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
       <strong>ÁREAS</strong>
         <table style="width:100%; border-collapse:separate; border-spacing:0 5px;font-size: 12px; font-family: Verdana, Arial, sans-serif;">
           <tr>
-            <td style="background-color: rgba(0, 255, 255, 0.8);">&nbsp;</td>
+            <td style="background-color: rgba(0, 255, 255, 0.8);"></td>
             <td>&nbsp;&nbsp;Requerimento de prospeção e pesquisa</td>
           </tr>
           <tr>
-            <td style="background-color: rgba(0, 0, 255, 0.8);">&nbsp;</td>
+            <td style="background-color: rgba(0, 0, 255, 0.8);"></td>
             <td>&nbsp;&nbsp;Contrato para prospeção e pesquisa</td>
           </tr>
           <tr>
-            <td style="background-color: rgba(255, 0, 255, 0.8);">&nbsp;</td>
+            <td style="background-color: rgba(255, 0, 255, 0.8);"></td>
             <td>&nbsp;&nbsp;Requerimento de exploração</td>
           </tr>
           <tr>
-            <td style="background-color: rgba(255, 0, 0, 0.8);">&nbsp;</td>
+            <td style="background-color: rgba(255, 0, 0, 0.8);"></td>
             <td>&nbsp;&nbsp;Contrato para concessão de exploração</td>
           </tr>
           <tr>
-            <td style="width: 20px; background-color: rgba(255, 189, 0, 0.8);">&nbsp;</td>
+            <td style="width: 20px; background-color: rgba(255, 189, 0, 0.8);"></td>
             <td>&nbsp;&nbsp;Relatório do grupo de trabalho 'Lítio'</td>
           </tr>
           <tr>
-            <td style="width: 20px; background-color: rgba(0, 0, 0, 0.8);">&nbsp;</td>
+            <td style="width: 20px; background-color: rgba(0, 0, 0, 0.8);"></td>
             <td>&nbsp;&nbsp;Outras</td>
           </tr>
         </table>
@@ -107,6 +175,9 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
       <hr>
 
       <p><strong>CHANGELOG</strong><br />
+          <strong>4.ª versão, 7.6.2019</strong><br />
+          DR publicações do periodo entre 1/2013 - 6/6/2019. Representação correta das 'zonas de exclusão'. Modo para imagens de satélite e alteração de pormenores da IU.<br />
+          <br />
           <strong>3.ª versão, 24.5.2019</strong><br />
           DR publicações do periodo entre 2013-2019 com as publicações mais recentes. Superfície dos polígonos em km² (calculada independentemente do valor a constar no DR).<br />
           <br />
@@ -115,9 +186,11 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
 
         <strong>Roadmap</strong><br />
           <ul>
-            <li>incluir as 'zonas de exclusão' presentes em 11 áreas</li>
-            <li>adicionar publicações no Diário da República do período 7/2006-12/2015</li>
-            <li>filtros interactivos para permitir pesquisar por data da publicação, por nome do requerente, ou por minerais mencionados</li>
+            <li>incluir áreas protegidas e outras zonas de proteção ambiental/geológica</li>
+            <li>incluir 'Espaços de Recursos Geológicos' definidos nos PDMs</li>
+            <li>adicionar publicações no Diário da República do período 7/2006-12/2012</li>
+            <li>filtros interactivos para permitir pesquisar por data da publicação, por nome do requerente, por distrito ou concelho, ou por minerais mencionados</li>
+            <li>gerador de PDF para impressão da situação num certo distrito ou município</li>
           </ul>
 
       <hr>
@@ -163,6 +236,30 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
           [-4, 43]  // Northeast coordinates
         ];
 
+        // Filter by publication year
+        var years = [ 2013, 2014, 2015, 2016, 2017, 2018, 2019];
+ 
+        function filterBy(year) {
+          //map.setFilter('zonesDR-layer', ['>=', year, feature.properties.year]);
+          // Set the label to the year
+        }
+
+        // Range slider
+          $( function() {
+            $( "#slider-range" ).slider({
+              range: true,
+              min: 2013,
+              max: 2019,
+              values: [ 2013, 2019 ],
+              slide: function( event, ui ) {
+                $( "#amount" ).html( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+              }
+            });
+            $( "#amount" ).html( $( "#slider-range" ).slider( "values", 0 ) +
+              " - " + $( "#slider-range" ).slider( "values", 1 ) );
+            filterBy($( "#slider-range" ).slider( "values", 0 ));
+          } );
+
         mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYWRvbWluZXJpbyIsImEiOiJjanZmaDQ0NzAyYzNkNDNwOHNobHJ2NjEwIn0.ryr-WDo_LSXYpsCIYok9_g';
 
         if (!mapboxgl.supported()) {
@@ -172,49 +269,110 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
           var map = new mapboxgl.Map({
             container: 'map', // container id
             style: 'mapbox://styles/mapadominerio/cjvfilgob0n0f1fqnjq62at3p', // stylesheet location
+            //mapbox://styles/v1/mapadominerio/cjw81h18q0gus1cp3fm4qqfqy
             center: [-7.5, 40.3], // starting position [lng, lat]
             zoom: 7, // starting zoom
             maxBounds: ptBounds, // Sets bounds as max
             pitchWithRotate: false,
-            dragRotate: false,
+            dragRotate: false
           });
 
-          // Add zoom and rotation controls to the map.
+          // Add zoom but not rotation controls to the map.
           map.addControl(new mapboxgl.NavigationControl({ showCompass: false }));
           map.addControl(new mapboxgl.ScaleControl({position: 'bottom-right'}));
 
+
+          var customSources = {
+              zonesDR : {
+                type: "geojson",
+                data: "http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio.labeled.min.geojson"
+              },
+              zonesGTL: {
+                type: "geojson",
+                data: "http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio.gtl.geojson"
+              }
+            };
+
+          var customLayers = [
+            {
+              id: 'zonesDR-layer',
+              source: 'zonesDR',
+              type: 'fill',
+              paint: {'fill-outline-color': ["case", ["boolean", ["feature-state", "hover"], false], '#000000', ['get', 'stroke'] ], 'fill-color' : ['get', 'fill'], 'fill-opacity' : ["case", ["boolean", ["feature-state", "hover"], false], .65, 0.4 ]},
+            },
+            {
+              id: 'zonesGTL-layer',
+              source: 'zonesGTL',
+              type: 'fill',
+              paint: {  'fill-outline-color': ["case", ["boolean", ["feature-state", "hover"], false], '#000000', ['get', 'stroke'] ], 'fill-color' : ['get', 'fill'], 'fill-opacity' : ["case", ["boolean", ["feature-state", "hover"], false], .65, 0.4 ] 
+              }
+            }];
+
+
+          // Always add the custom layers on style load
+          map.on('style.load', function() {        
+
+            var layers = map.getStyle().layers;
+            // Find the index of the first symbol layer in the map style
+            var firstSymbolId;
+            for (var i = 0; i < layers.length; i++) {
+              if (layers[i].type === 'symbol') {
+              firstSymbolId = layers[i].id;
+              break;
+              }
+            }
+
+              for (var i = 0; i < customLayers.length; i++) {
+                var me = customLayers[i];
+                map.addSource(me.source, customSources[me.source]);
+                map.addLayer(me, firstSymbolId); // inject into existing layer stack
+              }
+          });
+
+
+
+/* trabalho em curso ... 
+      var hoveredStateId = null;
+
+          // Bind UI changes on hover to each layer
+          var hoveredStateId =  {};
+          for (var i = 0; i < customLayers.length; i++) {
+            var me = customLayers[i];
+            hoveredStateId[me.id] = null;
+            map.on('mouseenter', me.id, function (e) {
+              map.getCanvas().style.cursor = 'pointer';
+            });
+            map.on('mouseleave', me.id, function (e) {
+            });
+
+      // When the user moves their mouse over the counties-fill layer, we'll update the 
+      // feature state for the feature under the mouse.
+      map.on("mousemove", me.id, function (e) {
+        if (e.features.length > 0) {
+          console.log(e.features[0])
+          if (hoveredStateId) {
+            map.setFeatureState({
+              source: me.source,
+              id: e.features[0].id
+            }, {
+              hover: false
+            });
+          }
+          hoveredStateId = e.features[0].id;
+          map.setFeatureState({
+            source: me.source,
+            id: e.features[0].id
+          }, {
+            hover: true
+          });
+        }
+      });
+}
+*/
+
           map.on('load', function () {
-            // Load zone data (DRE)
-            map.addSource('dre', {
-              type: 'geojson',
-              data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio.labeled.min.geojson'
-            });
-
-            // Load zone data (Grupo de Trabalho 'Lítio' 3/2017)
-            map.addSource('gdtl', {
-              type: 'geojson',
-              data: 'http://mapadominerio.auportugal.eu/assets/geojson/mapadominerio_relatorioGTL_2019-05-09.min.geojson'
-            });
-
-            // Render zone data (DRE)
-            map.addLayer({
-              'id': 'zonesDre',
-              'type': 'fill',
-              'source': 'dre',
-              'paint': { 'fill-outline-color': ['get', 'stroke'], 'fill-color' : ['get', 'fill'], 'fill-opacity' : 0.5 }
-            });
-
-            // Render zone data (Grupo de Trabalho 'Lítio' 3/2017)
-            map.addLayer({
-              'id': 'zonesGdtl',
-              'type': 'fill',
-              'source': 'gdtl',
-              'paint': { 'fill-outline-color': ['get', 'stroke'], 'fill-color' : ['get', 'fill'], 'fill-opacity' : 0.5 }
-            });
-
-            // When a click event occurs on a feature in the zones layer, open a popup at the
-            // location of the click, with description HTML from its properties.
-            map.on('click', 'zonesDre', function (e) {
+            // Bind layer clicks
+            map.on('click', 'zonesDR-layer', function (e) {
               new mapboxgl.Popup()
                 .setLngLat(e.lngLat)
                 .setHTML(e.features.map(function(feature) { 
@@ -233,7 +391,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
                 }).join('<hr>'))
                 .addTo(map);
             });
-             map.on('click', 'zonesGdtl', function (e) {
+             map.on('click', 'zonesGTL-layer', function (e) {
               new mapboxgl.Popup()
                 .setLngLat(e.lngLat)
                 .setHTML(e.features.map(function(feature) { 
@@ -244,24 +402,44 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
                 .addTo(map);
             });
 
+
             // Change the cursor to a pointer when the mouse is over a zone
-            map.on('mouseenter', 'zonesDre', function () {
+            map.on('mouseenter', 'zonesDR-layer', function (e) {
               map.getCanvas().style.cursor = 'pointer';
             });
-            map.on('mouseenter', 'zonesGdtl', function () {
+            map.on('mouseenter', 'zonesGTL-layer', function (e) {
               map.getCanvas().style.cursor = 'pointer';
             });
 
             // Change it back to a pointer when it leaves
-            map.on('mouseleave', 'zonesDre', function () {
+            map.on('mouseleave', 'zonesDR-layer', function (e) {
               map.getCanvas().style.cursor = '';
             });
-            map.on('mouseleave', 'zonesGdtl', function () {
+            map.on('mouseleave', 'zonesGTL-layer', function (e) {
               map.getCanvas().style.cursor = '';
             });
 
           });
+
 }
+
+      // add satélite style toggle
+      var sateliteBtn = document.createElement('a');
+          sateliteBtn.href = '#';
+          sateliteBtn.className = 'focus';
+          sateliteBtn.textContent = 'Satélite';
+          sateliteBtn.onclick = function (e) {
+                if (this.className === 'active') {
+                  map.setStyle('mapbox://styles/mapadominerio/cjvfilgob0n0f1fqnjq62at3p'); // switch back to slim vector map
+                  this.className = '';
+              } else {
+                  this.className = 'active';
+                  map.setStyle('mapbox://styles/mapadominerio/cjw81h18q0gus1cp3fm4qqfqy'); // activate satellite raster style
+              }
+          };
+          var layers = document.getElementById('menu');
+          layers.appendChild(sateliteBtn);
+
 
       // gather basic usage data
       var sc_project=12004214; 
