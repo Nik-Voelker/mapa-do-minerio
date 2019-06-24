@@ -8,6 +8,142 @@
         "coordinates": [
           [
             [
+              -7.81792,
+              41.6353
+            ],
+            [
+              -7.81377,
+              41.63482
+            ],
+            [
+              -7.81229,
+              41.63543
+            ],
+            [
+              -7.81121,
+              41.6355
+            ],
+            [
+              -7.81017,
+              41.63527
+            ],
+            [
+              -7.80733,
+              41.6342
+            ],
+            [
+              -7.80636,
+              41.63366
+            ],
+            [
+              -7.8055,
+              41.63272
+            ],
+            [
+              -7.80471,
+              41.63107
+            ],
+            [
+              -7.80783,
+              39.86409
+            ],
+            [
+              -7.79801,
+              41.63005
+            ],
+            [
+              -7.79509,
+              41.62866
+            ],
+            [
+              -7.79734,
+              41.62707
+            ],
+            [
+              -7.79963,
+              41.62815
+            ],
+            [
+              -7.80397,
+              41.62873
+            ],
+            [
+              -7.80574,
+              41.62891
+            ],
+            [
+              -7.80711,
+              41.62945
+            ],
+            [
+              -7.80832,
+              41.63196
+            ],
+            [
+              -7.80867,
+              41.63219
+            ],
+            [
+              -7.81152,
+              41.63326
+            ],
+            [
+              -7.81302,
+              41.63245
+            ],
+            [
+              -7.81634,
+              41.63283
+            ],
+            [
+              -7.81792,
+              41.6353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Savannah Lithium, Lda.",
+          "act": "Requerimento de alteração da concessão",
+          "actNo": "10260/2019",
+          "actType": "misc",
+          "actString": "contrato",
+          "actId": 122624593,
+          "pubNo": "116/2019",
+          "pubDate": "2019-06-19",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/122624593/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/122624593"
+        },
+        "name": "C-100 Mina do Barroso",
+        "minerals": [
+          "quartzo",
+          "lítio",
+          "feldspato"
+        ],
+        "src": "dre",
+        "fill": "#909090",
+        "stroke": "#444444",
+        "opacity": 0.3,
+        "area": 55075865,
+        "centroid": [
+          -7.80151,
+          41.5899
+        ],
+        "minzoom": 6
+      },
+      "id": 5122624593,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -6.91342,
               41.83074
             ],
@@ -37161,14 +37297,1492 @@
       },
       "id": 51622849,
       "year": 2013
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.34205,
+              41.07606
+            ],
+            [
+              -8.30546,
+              41.09917
+            ],
+            [
+              -8.26731,
+              41.04346
+            ],
+            [
+              -8.23302,
+              41.04745
+            ],
+            [
+              -8.20943,
+              41.00809
+            ],
+            [
+              -8.24624,
+              40.96708
+            ],
+            [
+              -8.31334,
+              40.97301
+            ],
+            [
+              -8.39466,
+              41.02697
+            ],
+            [
+              -8.33618,
+              41.02708
+            ],
+            [
+              -8.33632,
+              41.07211
+            ],
+            [
+              -8.34205,
+              41.07606
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Klondike Gold Corp Portugal, Unipessoal Lda.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "17090/2012",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 1197763,
+          "pubNo": "248/2012",
+          "pubDate": "2012-12-24",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/1197763/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/1197763"
+        },
+        "name": "Castelo de Paiva",
+        "minerals": [
+          "ouro",
+          "outros metais associados"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 109922147,
+        "centroid": [
+          -8.29662,
+          41.01352
+        ],
+        "minzoom": 6
+      },
+      "id": 51197763,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.27423,
+              41.7986
+            ],
+            [
+              -8.34454,
+              41.79745
+            ],
+            [
+              -8.37043,
+              41.78999
+            ],
+            [
+              -8.37561,
+              41.78175
+            ],
+            [
+              -8.37102,
+              41.77292
+            ],
+            [
+              -8.40568,
+              41.77286
+            ],
+            [
+              -8.40802,
+              41.82538
+            ],
+            [
+              -8.27367,
+              41.83218
+            ],
+            [
+              -8.27423,
+              41.7986
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Klondike Gold Corp Portugal, Unipessoal Lda.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "17091/2012",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 1197764,
+          "pubNo": "248/2012",
+          "pubDate": "2012-12-24",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/1197764/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/1197764"
+        },
+        "name": "Ponte da Barca",
+        "minerals": [
+          "ouro",
+          "outros metais associados"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 46832899,
+        "centroid": [
+          -8.38485,
+          41.8053
+        ],
+        "minzoom": 6
+      },
+      "id": 51197764,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.32884,
+              40.75433
+            ],
+            [
+              -7.32906,
+              40.73633
+            ],
+            [
+              -7.36457,
+              40.73657
+            ],
+            [
+              -7.36436,
+              40.75458
+            ],
+            [
+              -7.24464,
+              40.79761
+            ],
+            [
+              -7.23894,
+              40.78872
+            ],
+            [
+              -7.26941,
+              40.77192
+            ],
+            [
+              -7.29332,
+              40.75408
+            ],
+            [
+              -7.32884,
+              40.75433
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "GRALMINAS — Mineira da Gralheira, S.A.",
+          "act": "Contrato para prospeção e pesquisa",
+          "actNo": "723/2012",
+          "actType": "conPesquisa",
+          "actString": "contrato",
+          "actId": 2285289,
+          "pubNo": "242/2012",
+          "pubDate": "2012-12-14",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2285289/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2285289"
+        },
+        "name": "MN/PP/007/11, Vale de Mouro",
+        "minerals": [
+          "quartzo"
+        ],
+        "src": "dre",
+        "fill": "#0000ff",
+        "stroke": "#0000cc",
+        "opacity": 0.3,
+        "area": 23155539,
+        "centroid": [
+          -7.34207,
+          40.74926
+        ],
+        "minzoom": 7
+      },
+      "id": 52285289,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.68931,
+              40.63436
+            ],
+            [
+              -7.6893,
+              40.63706
+            ],
+            [
+              -7.69435,
+              40.6465
+            ],
+            [
+              -7.69698,
+              40.64652
+            ],
+            [
+              -7.69878,
+              40.64527
+            ],
+            [
+              -7.69888,
+              40.63812
+            ],
+            [
+              -7.68931,
+              40.63436
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "FELMICA — Minerais Industriais, S.A.",
+          "act": "Contrato para concessão de exploração",
+          "actNo": "724/2012",
+          "actType": "conConcessao",
+          "actString": "contrato",
+          "actId": 2285290,
+          "pubNo": "242/2012",
+          "pubDate": "2012-12-14",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2285290/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2285290"
+        },
+        "name": "C-133 Abegões",
+        "minerals": [
+          "quartzo",
+          "feldspato"
+        ],
+        "src": "dre",
+        "fill": "#ff0000",
+        "stroke": "#cc0000",
+        "opacity": 0.3,
+        "area": 685648,
+        "centroid": [
+          -7.69529,
+          40.64035
+        ],
+        "minzoom": 8
+      },
+      "id": 52285290,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.48114,
+              40.32886
+            ],
+            [
+              -8.46346,
+              40.3289
+            ],
+            [
+              -8.46258,
+              40.32794
+            ],
+            [
+              -8.46072,
+              40.32842
+            ],
+            [
+              -8.45998,
+              40.3277
+            ],
+            [
+              -8.45762,
+              40.32801
+            ],
+            [
+              -8.45759,
+              40.32349
+            ],
+            [
+              -8.45819,
+              40.32347
+            ],
+            [
+              -8.45753,
+              40.31956
+            ],
+            [
+              -8.45752,
+              40.31092
+            ],
+            [
+              -8.48105,
+              40.31085
+            ],
+            [
+              -8.48107,
+              40.31506
+            ],
+            [
+              -8.47493,
+              40.31739
+            ],
+            [
+              -8.47767,
+              40.32022
+            ],
+            [
+              -8.48111,
+              40.31735
+            ],
+            [
+              -8.48114,
+              40.32886
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Adelino Duarte da Mota, S.A.",
+          "act": "Requerimento de contrato para concessão de exploração",
+          "actNo": "15989/2012",
+          "actType": "reqConcessao",
+          "actString": "aviso",
+          "actId": 2008866,
+          "pubNo": "230/2012",
+          "pubDate": "2012-11-28",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2008866/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2008866"
+        },
+        "name": "Quintas da Mala",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#ff00ff",
+        "stroke": "#cc00cc",
+        "opacity": 0.3,
+        "area": 3797819,
+        "centroid": [
+          -8.46704,
+          40.32044
+        ],
+        "minzoom": 7
+      },
+      "id": 52008866,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.70492,
+              39.88742
+            ],
+            [
+              -8.70626,
+              39.88382
+            ],
+            [
+              -8.70594,
+              39.87651
+            ],
+            [
+              -8.71142,
+              39.87315
+            ],
+            [
+              -8.71365,
+              39.86994
+            ],
+            [
+              -8.71333,
+              39.86918
+            ],
+            [
+              -8.71588,
+              39.86853
+            ],
+            [
+              -8.71284,
+              39.86608
+            ],
+            [
+              -8.71211,
+              39.86609
+            ],
+            [
+              -8.71134,
+              39.86414
+            ],
+            [
+              -8.71535,
+              39.86549
+            ],
+            [
+              -8.71582,
+              39.8662
+            ],
+            [
+              -8.71601,
+              39.86704
+            ],
+            [
+              -8.71803,
+              39.86733
+            ],
+            [
+              -8.7188,
+              39.86652
+            ],
+            [
+              -8.72215,
+              39.86688
+            ],
+            [
+              -8.72427,
+              39.87994
+            ],
+            [
+              -8.72257,
+              39.88077
+            ],
+            [
+              -8.71794,
+              39.87396
+            ],
+            [
+              -8.71381,
+              39.87398
+            ],
+            [
+              -8.71183,
+              39.87466
+            ],
+            [
+              -8.71252,
+              39.87699
+            ],
+            [
+              -8.71548,
+              39.87638
+            ],
+            [
+              -8.71603,
+              39.88189
+            ],
+            [
+              -8.71248,
+              39.88437
+            ],
+            [
+              -8.71393,
+              39.88775
+            ],
+            [
+              -8.71604,
+              39.88675
+            ],
+            [
+              -8.71757,
+              39.88789
+            ],
+            [
+              -8.70492,
+              39.88742
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Adelino Duarte da Mota, S.A.",
+          "act": "Contrato para concessão de exploração",
+          "actNo": "700/2012",
+          "actType": "conConcessao",
+          "actString": "contrato",
+          "actId": 2008867,
+          "pubNo": "230/2012",
+          "pubDate": "2012-11-28",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2008867/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2008867"
+        },
+        "name": "C-135 Mendes",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#ff0000",
+        "stroke": "#cc0000",
+        "opacity": 0.3,
+        "area": 1970720,
+        "centroid": [
+          -8.71036,
+          39.88047
+        ],
+        "minzoom": 8
+      },
+      "id": 52008867,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.82181,
+              39.91824
+            ],
+            [
+              -8.82699,
+              39.91588
+            ],
+            [
+              -8.83085,
+              39.91112
+            ],
+            [
+              -8.83688,
+              39.91393
+            ],
+            [
+              -8.8327,
+              39.91827
+            ],
+            [
+              -8.83689,
+              39.91855
+            ],
+            [
+              -8.84198,
+              39.92091
+            ],
+            [
+              -8.83447,
+              39.92386
+            ],
+            [
+              -8.83336,
+              39.92175
+            ],
+            [
+              -8.83439,
+              39.92137
+            ],
+            [
+              -8.83367,
+              39.9199
+            ],
+            [
+              -8.83281,
+              39.92009
+            ],
+            [
+              -8.83296,
+              39.92101
+            ],
+            [
+              -8.82879,
+              39.92138
+            ],
+            [
+              -8.8275,
+              39.9228
+            ],
+            [
+              -8.82544,
+              39.92502
+            ],
+            [
+              -8.81852,
+              39.9224
+            ],
+            [
+              -8.81759,
+              39.91823
+            ],
+            [
+              -8.82181,
+              39.91824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "SORGILA — Sociedade de Argilas, S.A.",
+          "act": "Contrato para concessão de exploração",
+          "actNo": "698/2012",
+          "actType": "conConcessao",
+          "actString": "contrato",
+          "actId": 2964781,
+          "pubNo": "229/2012",
+          "pubDate": "2012-11-27",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2964781/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2964781"
+        },
+        "name": "C-130 Monte Redondo",
+        "minerals": [
+          "caulino",
+          "quartzo"
+        ],
+        "src": "dre",
+        "fill": "#ff0000",
+        "stroke": "#cc0000",
+        "opacity": 0.3,
+        "area": 1388214,
+        "centroid": [
+          -8.82417,
+          39.92111
+        ],
+        "minzoom": 8
+      },
+      "id": 52964781,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.83598,
+              39.93829
+            ],
+            [
+              -8.80907,
+              39.93853
+            ],
+            [
+              -8.80901,
+              39.93224
+            ],
+            [
+              -8.81358,
+              39.9222
+            ],
+            [
+              -8.83591,
+              39.9311
+            ],
+            [
+              -8.83598,
+              39.93829
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "ARGILIS — Extração de Areias, S.A.",
+          "act": "Contrato para concessão de exploração",
+          "actNo": "699/2012",
+          "actType": "conConcessao",
+          "actString": "contrato",
+          "actId": 2964782,
+          "pubNo": "229/2012",
+          "pubDate": "2012-11-27",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2964782/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2964782"
+        },
+        "name": "C-132 Guia 1",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#ff0000",
+        "stroke": "#cc0000",
+        "opacity": 0.3,
+        "area": 2982000,
+        "centroid": [
+          -8.8171,
+          39.93088
+        ],
+        "minzoom": 8
+      },
+      "id": 52964782,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.72427,
+              40.37078
+            ],
+            [
+              -8.72217,
+              40.37121
+            ],
+            [
+              -8.7113,
+              40.36944
+            ],
+            [
+              -8.7011,
+              40.36698
+            ],
+            [
+              -8.67612,
+              40.36808
+            ],
+            [
+              -8.66556,
+              40.3842
+            ],
+            [
+              -8.6577,
+              40.38865
+            ],
+            [
+              -8.64356,
+              40.38363
+            ],
+            [
+              -8.6485,
+              40.37794
+            ],
+            [
+              -8.65372,
+              40.36955
+            ],
+            [
+              -8.65422,
+              40.36315
+            ],
+            [
+              -8.65273,
+              40.34449
+            ],
+            [
+              -8.66199,
+              40.34495
+            ],
+            [
+              -8.67057,
+              40.35018
+            ],
+            [
+              -8.67947,
+              40.35406
+            ],
+            [
+              -8.68142,
+              40.35386
+            ],
+            [
+              -8.69693,
+              40.35262
+            ],
+            [
+              -8.70338,
+              40.35784
+            ],
+            [
+              -8.70511,
+              40.36246
+            ],
+            [
+              -8.7094,
+              40.36357
+            ],
+            [
+              -8.72427,
+              40.37078
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Corbário — Minerais Industriais, S.A.",
+          "act": "Contrato para prospeção e pesquisa",
+          "actNo": "690/2012",
+          "actType": "conPesquisa",
+          "actString": "contrato",
+          "actId": 896621,
+          "pubNo": "227/2012",
+          "pubDate": "2012-11-23",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/896621/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/896621"
+        },
+        "name": "Petim",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#0000ff",
+        "stroke": "#0000cc",
+        "opacity": 0.3,
+        "area": 12406063,
+        "centroid": [
+          -8.66562,
+          40.36174
+        ],
+        "minzoom": 7
+      },
+      "id": 5896621,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.74666,
+              40.36803
+            ],
+            [
+              -8.73331,
+              40.35988
+            ],
+            [
+              -8.72563,
+              40.36074
+            ],
+            [
+              -8.7164,
+              40.35485
+            ],
+            [
+              -8.71317,
+              40.35152
+            ],
+            [
+              -8.72302,
+              40.34009
+            ],
+            [
+              -8.72809,
+              40.34295
+            ],
+            [
+              -8.73431,
+              40.33805
+            ],
+            [
+              -8.73385,
+              40.33376
+            ],
+            [
+              -8.75118,
+              40.33417
+            ],
+            [
+              -8.75057,
+              40.33855
+            ],
+            [
+              -8.74283,
+              40.34546
+            ],
+            [
+              -8.74709,
+              40.34931
+            ],
+            [
+              -8.74633,
+              40.36282
+            ],
+            [
+              -8.74666,
+              40.36803
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Corbário — Minerais Industriais, S.A.",
+          "act": "Contrato para prospeção e pesquisa",
+          "actNo": "691/2012",
+          "actType": "conPesquisa",
+          "actString": "contrato",
+          "actId": 896622,
+          "pubNo": "227/2012",
+          "pubDate": "2012-11-23",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/896622/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/896622"
+        },
+        "name": "Covas do Barro",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#0000ff",
+        "stroke": "#0000cc",
+        "opacity": 0.3,
+        "area": 6639011,
+        "centroid": [
+          -8.73458,
+          40.35036
+        ],
+        "minzoom": 7
+      },
+      "id": 5896622,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.80916,
+              40.21902
+            ],
+            [
+              -8.80502,
+              40.22151
+            ],
+            [
+              -8.79824,
+              40.22516
+            ],
+            [
+              -8.79079,
+              40.23106
+            ],
+            [
+              -8.78738,
+              40.23703
+            ],
+            [
+              -8.78622,
+              40.23006
+            ],
+            [
+              -8.78344,
+              40.22259
+            ],
+            [
+              -8.78004,
+              40.2214
+            ],
+            [
+              -8.77471,
+              40.22304
+            ],
+            [
+              -8.76376,
+              40.22134
+            ],
+            [
+              -8.75215,
+              40.2099
+            ],
+            [
+              -8.74999,
+              40.20324
+            ],
+            [
+              -8.75552,
+              40.20121
+            ],
+            [
+              -8.75721,
+              40.19885
+            ],
+            [
+              -8.76656,
+              40.20072
+            ],
+            [
+              -8.77065,
+              40.20439
+            ],
+            [
+              -8.77624,
+              40.20475
+            ],
+            [
+              -8.77803,
+              40.20395
+            ],
+            [
+              -8.78127,
+              40.20943
+            ],
+            [
+              -8.788,
+              40.21063
+            ],
+            [
+              -8.79888,
+              40.21643
+            ],
+            [
+              -8.80916,
+              40.21902
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Corbário — Minerais Industriais, S.A.",
+          "act": "Contrato para prospeção e pesquisa",
+          "actNo": "692/2012",
+          "actType": "conPesquisa",
+          "actString": "contrato",
+          "actId": 896623,
+          "pubNo": "227/2012",
+          "pubDate": "2012-11-23",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/896623/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/896623"
+        },
+        "name": "Pinto",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#0000ff",
+        "stroke": "#0000cc",
+        "opacity": 0.3,
+        "area": 7936786,
+        "centroid": [
+          -8.77277,
+          40.21376
+        ],
+        "minzoom": 7
+      },
+      "id": 5896623,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.38161,
+              40.50606
+            ],
+            [
+              -8.38568,
+              40.49635
+            ],
+            [
+              -8.4023,
+              40.49017
+            ],
+            [
+              -8.41793,
+              40.48594
+            ],
+            [
+              -8.42117,
+              40.5033
+            ],
+            [
+              -8.40155,
+              40.50784
+            ],
+            [
+              -8.40027,
+              40.50226
+            ],
+            [
+              -8.39451,
+              40.50189
+            ],
+            [
+              -8.39222,
+              40.50891
+            ],
+            [
+              -8.38161,
+              40.50606
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Rodrigues & Rodrigues, Lda.",
+          "act": "Requerimento de contrato para concessão de exploração",
+          "actNo": "15565/2012",
+          "actType": "reqConcessao",
+          "actString": "aviso",
+          "actId": 2846769,
+          "pubNo": "225/2012",
+          "pubDate": "2012-11-21",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2846769/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2846769"
+        },
+        "name": "Vale Salgueiro-Aguadalto",
+        "minerals": [
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#ff00ff",
+        "stroke": "#cc00cc",
+        "opacity": 0.3,
+        "area": 5001180,
+        "centroid": [
+          -8.41004,
+          40.49707
+        ],
+        "minzoom": 7
+      },
+      "id": 52846769,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.38759,
+              41.10059
+            ],
+            [
+              -8.39854,
+              41.10057
+            ],
+            [
+              -8.41983,
+              41.1228
+            ],
+            [
+              -8.41976,
+              41.10614
+            ],
+            [
+              -8.40184,
+              41.09088
+            ],
+            [
+              -8.39589,
+              41.09089
+            ],
+            [
+              -8.38871,
+              41.081
+            ],
+            [
+              -8.378,
+              41.08103
+            ],
+            [
+              -8.38397,
+              41.08732
+            ],
+            [
+              -8.37802,
+              41.08733
+            ],
+            [
+              -8.38759,
+              41.10059
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "A.M. — Almada Mining, S.A.",
+          "act": "Contrato para concessão de exploração",
+          "actNo": "670/2012",
+          "actType": "conConcessao",
+          "actString": "contrato",
+          "actId": 2846770,
+          "pubNo": "225/2012",
+          "pubDate": "2012-11-21",
+          "pubYear": 2012,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2846770/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2846770"
+        },
+        "name": "C-129 Banjas/Poço Romano",
+        "minerals": [
+          "ouro",
+          "prata"
+        ],
+        "src": "dre",
+        "fill": "#ff0000",
+        "stroke": "#cc0000",
+        "opacity": 0.3,
+        "area": 5252075,
+        "centroid": [
+          -8.38913,
+          41.0921
+        ],
+        "minzoom": 7
+      },
+      "id": 52846770,
+      "year": 2012
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.80489,
+              41.62788
+            ],
+            [
+              -7.80055,
+              41.62731
+            ],
+            [
+              -7.7958,
+              41.62505
+            ],
+            [
+              -7.79301,
+              41.62446
+            ],
+            [
+              -7.79052,
+              41.62228
+            ],
+            [
+              -7.78754,
+              41.62218
+            ],
+            [
+              -7.78567,
+              41.62247
+            ],
+            [
+              -7.78523,
+              41.62227
+            ],
+            [
+              -7.77494,
+              41.6177
+            ],
+            [
+              -7.77393,
+              41.61777
+            ],
+            [
+              -7.77263,
+              41.61737
+            ],
+            [
+              -7.77313,
+              41.6151
+            ],
+            [
+              -7.77386,
+              41.61291
+            ],
+            [
+              -7.7759,
+              41.61406
+            ],
+            [
+              -7.77688,
+              41.61485
+            ],
+            [
+              -7.78787,
+              41.61959
+            ],
+            [
+              -7.78909,
+              41.61963
+            ],
+            [
+              -7.79246,
+              41.62275
+            ],
+            [
+              -7.79416,
+              41.62294
+            ],
+            [
+              -7.79489,
+              41.62347
+            ],
+            [
+              -7.79663,
+              41.62376
+            ],
+            [
+              -7.79729,
+              41.62408
+            ],
+            [
+              -7.80306,
+              41.62355
+            ],
+            [
+              -7.80466,
+              41.62326
+            ],
+            [
+              -7.80563,
+              41.62523
+            ],
+            [
+              -7.80592,
+              41.62597
+            ],
+            [
+              -7.80875,
+              41.6279
+            ],
+            [
+              -7.81208,
+              41.62654
+            ],
+            [
+              -7.81404,
+              41.62735
+            ],
+            [
+              -7.81394,
+              41.6316
+            ],
+            [
+              -7.81244,
+              41.63242
+            ],
+            [
+              -7.8096,
+              41.63134
+            ],
+            [
+              -7.80924,
+              41.63111
+            ],
+            [
+              -7.80804,
+              41.6286
+            ],
+            [
+              -7.80666,
+              41.62806
+            ],
+            [
+              -7.80489,
+              41.62788
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "SAIBRAIS — Areias e Caulinos, S.A.",
+          "act": "Contrato para concessão de exploração",
+          "actNo": "",
+          "actType": "conConcessao",
+          "actString": "contrato",
+          "actId": 2145518,
+          "pubNo": "131/2006",
+          "pubDate": "2006-07-10",
+          "pubYear": 2006,
+          "coordSys": "Hayford-Gauss, DATUM 73",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/2145518/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/2145518"
+        },
+        "name": "CC-DM-032 Mina do Barroso",
+        "minerals": [
+          "feldspato",
+          "quartzo"
+        ],
+        "src": "dre",
+        "fill": "#ff0000",
+        "stroke": "#cc0000",
+        "opacity": 0.3,
+        "area": 1204674,
+        "centroid": [
+          -7.81099,
+          41.62937
+        ],
+        "minzoom": 8
+      },
+      "id": 52145518,
+      "year": 2006
     }
   ],
   "properties": {
     "license": "ISC",
     "url": "mapadominerio.auportugal.eu",
     "author": "Nik Völker",
-    "export": "2019-06-07T19:56:57.805Z",
-    "zones": 377,
+    "export": "2019-06-24T22:34:38.021Z",
+    "zones": 392,
     "acts": [
       "Contrato para concessão de exploração",
       "Contrato para prospeção e pesquisa",
@@ -37179,9 +38793,11 @@
     ],
     "entities": [
       "A MOTAMINERAL - Minerais Industriais, S.A.",
+      "A.M. — Almada Mining, S.A.",
       "AM - Almada Mining, SA.",
       "ARG, Lda.",
       "ARGILIS - Extração de Areias, S.A.",
+      "ARGILIS — Extração de Areias, S.A.",
       "Acúrcio Henriques Parra, Lda.",
       "Adelino Duarte da Mota, S.A.",
       "Alcoareia - Extração, Lavagem e Crivagem de Areia, Lda.",
@@ -37205,6 +38821,7 @@
       "Colt Resources, Inc.",
       "Consórcio AM. - Almada Mining, S. A. e EDM - Empresa de Desenvolvimento Mineiro, S.A.",
       "Consórcio Penedono (Colt Resources Inc./Contécnica - Consultoria Técnica, Lda.)",
+      "Corbário — Minerais Industriais, S.A.",
       "EDM - Empresa de Desenvolvimento Mineiro, S.A.",
       "ENU - Empresa Nacional de Urânio, S.A e FELMICA — Minerais Industriais, S.A.",
       "EPA - Sociedade de Extração de Agregados, Lda.",
@@ -37215,10 +38832,12 @@
       "Expertisemorning, Lda.",
       "FELMICA - Minas e Minerais, S.A.",
       "FELMICA - Minerais Industriais, S.A.",
+      "FELMICA — Minerais Industriais, S.A.",
       "Faria Lopes & Aldeia, S.A.",
       "Fortescue Metals Group Exploration Pty Ltd.",
       "GRALMINAS - Mineira da Gralheira, S.A.",
       "GRALMINAS — Mineira da Gralheira Unipessoal, Lda.",
+      "GRALMINAS — Mineira da Gralheira, S.A.",
       "Godolphin Mining Services LLC",
       "Granitender - Granitos e Empreitadas, Lda.",
       "Granitender - Granitos e Empreitadas, Lda. e Proton Cuarzos, Lda.",
@@ -37272,6 +38891,7 @@
       "REDCORP — Empreendimentos Mineiros, Unipessoal, Lda. & EDM - Empresa de Desenvolvimento Mineiro, S.A.",
       "ROCÁVIA - Rochas de Viana, Lda.",
       "Rodrigues & Rodrigues, Lda.",
+      "SAIBRAIS — Areias e Caulinos, S.A.",
       "SIBELCO Portuguesa, Lda.",
       "SIFUCEL - Sílicas, S.A.",
       "SOCASCA - Recolha e Comércio de Recicláveis, S.A.",
@@ -37279,7 +38899,9 @@
       "SOMINCOR - Sociedade Mineira de Neves-Corvo, S.A.",
       "SOPRED - Sociedade de Proteção, Recuperação & Desenvolvimento Mineiro do Vale do Gaia, S.A.",
       "SORGILA - Sociedade de Argilas, S.A.",
+      "SORGILA — Sociedade de Argilas, S.A.",
       "Sabril - Sociedade de Areias e Britas, Lda.",
+      "Savannah Lithium, Lda.",
       "Scotgold Resources Limited",
       "Scotgold Resources Portugal Unipessoal, Lda.",
       "Sibelco - Portuguesa, Lda.",

@@ -19,7 +19,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
 
 -->
-<html lang="pt">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
@@ -27,8 +27,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
     <meta property="og:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-landscape.jpg" />
     <meta property="og:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-square.jpg" />
     <meta property="og:url" content="http://mapadominerio.auportugal.eu/" />
-    <meta property="og:title" content="Mapa do minério, Portugal Continental 2013-19" />
-    <meta property="og:description" content="Áreas destinadas à actividade mineira, publicadas no Diário da República entre 2013 e 2019. " />
+    <meta property="og:title" content="Mapa do Minério, Continental Portugal 2013-19" />
+    <meta property="og:description" content="Áreas destinated or requested for mining activities, published in the Diário da República between 2013-2019. " />
     <meta property="fb:admins" content="1545727531"/>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="http://mapadominerio.auportugal.eu/assets/img/previewImage-landscape.jpg">
@@ -38,7 +38,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
-    <title>Mapa do Minério, Portugal Continental 2013-19</title>
+    <title>Mapa do Minério, Continental Portugal 2013-19</title>
     <style>
       html, body { width: 100vw; margin: 0; padding: 0;}
       h3, h2 { font-family: Verdana, Arial, sans-serif; text-align: left; padding: 0px; margin: 5px; }
@@ -140,74 +140,75 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
     <div id="info" class="changelog">
 
       <h2>Mapa do Minério</h2>
-      <h3>Portugal Continental 2013&#8209;2019</h3>
-      <h3><a href="index.en.html">English version</a></h3>
+      <h3>Continental Portugal 2013&#8209;2019</h3>
+      <h3><a href="index.html">Versão em Português</a></h3>
       <hr>
 
-      <strong>ÁREAS</strong>
+      <strong>AREAS</strong>
         <table style="width:100%; border-collapse:separate; border-spacing:0 5px;font-size: 12px; font-family: Verdana, Arial, sans-serif;">
           <tr>
             <td style="background-color: rgba(0, 255, 255, 0.8);"></td>
-            <td>&nbsp;&nbsp;Requerimento de prospeção e pesquisa</td>
+            <td>&nbsp;&nbsp;Request for prospection</td>
           </tr>
           <tr>
             <td style="background-color: rgba(0, 0, 255, 0.8);"></td>
-            <td>&nbsp;&nbsp;Contrato para prospeção e pesquisa</td>
+            <td>&nbsp;&nbsp;Contract for prospection</td>
           </tr>
           <tr>
             <td style="background-color: rgba(255, 0, 255, 0.8);"></td>
-            <td>&nbsp;&nbsp;Requerimento de exploração</td>
+            <td>&nbsp;&nbsp;Request for exploration</td>
           </tr>
           <tr>
             <td style="background-color: rgba(255, 0, 0, 0.8);"></td>
-            <td>&nbsp;&nbsp;Contrato para concessão de exploração</td>
+            <td>&nbsp;&nbsp;Contract for exploration</td>
           </tr>
           <tr>
             <td style="width: 20px; background-color: rgba(255, 189, 0, 0.8);"></td>
-            <td>&nbsp;&nbsp;Relatório do grupo de trabalho 'Lítio'</td>
+            <td>&nbsp;&nbsp;Zones recommended by the 'Lítio' Working Group</td>
           </tr>
           <tr>
             <td style="width: 20px; background-color: rgba(0, 0, 0, 0.8);"></td>
-            <td>&nbsp;&nbsp;Outras</td>
+            <td>&nbsp;&nbsp;Misc</td>
           </tr>
         </table>
 
       <hr>
 
       <p><strong>CHANGELOG</strong><br />
-          <strong>5.ª versão, 24.6.2019</strong><br />
-          DR publicações do periodo entre 1/2013 - 6/6/2019. Versão em ingles. Inclusão da concessão C-100 (CC-DM-032) "Mina do Barroso", publicada no DR 131/2006 10.7.2006.<br />
+          <strong>5th version, 24.6.2019</strong><br />
+          DR publications between 1/2013 - 24/6/2019. English edition. Inclusion of the concession C-100 (CC-DM-032) "Mina do Barroso", published in DR 131/2006 10.7.2006.
           <br />
-          <strong>4.ª versão, 7.6.2019</strong><br />
-          DR publicações do periodo entre 1/2013 - 6/6/2019. Representação correta das 'zonas de exclusão'. Modo para imagens de satélite e alteração de pormenores da IU.<br />
           <br />
-          <strong>3.ª versão, 24.5.2019</strong><br />
-          DR publicações do periodo entre 2013-2019 com as publicações mais recentes. Superfície dos polígonos em km² (calculada independentemente do valor a constar no DR).<br />
+          <strong>4th version, 7.6.2019</strong><br />
+          DR publications between 1/2013 - 7/6/2019. Correct representation of the 'exclusion zones' in the polygons. Optional mode for satellite imagery e minor UI treaks.<br />
           <br />
-          <strong>2.ª versão, 13.5.2019</strong><br />
-          O mapa mostra áreas extraidas do <a href="https://www.dre.pt/" target="_blank">Diário da República</a>, onde os requerimentos e as concessões de empresas do sector mineiro são divulgados publicamente. Incluídas nesta primeira versão do mapa estão as áreas publicadas entre 1/2016 e 5/2019, para além das zonas recomendadas para prospeção e eventual exploração no <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">relatório</a> do <i><a href="https://dre.pt/web/guest/home/-/dre/105348759/details/4/maximized?serie=II&dreId=105348688" target="_blank">Grupo de trabalho "Lítio"</a></i> em 3/2017 (v. o "aviso" em baixo). Considerando as zonas publicadas em dre.pt, incluiu-se todo o tipo de áreas (requerimentos para pesquisa, contratos de exploração, etc.) e minerais (de arsénio até zinco, incluindo o lítio, mas também substâncias mais comuns como caulino/argila ou quarzo/areia).</p>
+          <strong>3rd version, 24.5.2019</strong><br />
+          DR publications between 1/2013 - 24/5/2019. Added polygon surface in km² (calculated independent from the value published in the DR).<br />
+          <br />
+          <strong>2nd version, 13.5.2019</strong><br />
+          The Mapa do Minério shows the areas pulled from the <a href="https://www.dre.pt/" target="_blank">Diário da República</a> (DR), where requests and concessions of the Portuguese mining sector are circulated to the public. Included are, in this first version, areas published between 1/2016 and 5/2019. Also displayed are the zones recommended for prospection and eventual future exploration by the <i><a href="https://dre.pt/web/guest/home/-/dre/105348759/details/4/maximized?serie=II&dreId=105348688" target="_blank">Lithium Working Group</a></i> in their <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">report published 3/2017</a> (please see the 'note' below). Considering the areas published in the DR (dre.pt), all kinds of publication types (requests for prospection, cencession contracts, etc.) and minerals (from arsenic to zinc, including lithium, but also more common substances like clay or sand) have been included.</p>
 
         <strong>Roadmap</strong><br />
           <ul>
-            <li>incluir áreas protegidas e outras zonas de proteção ambiental/geológica</li>
-            <li>incluir 'Espaços de Recursos Geológicos' definidos nos PDMs</li>
-            <li>adicionar publicações no Diário da República do período 7/2006-12/2012</li>
-            <li>filtros interactivos para permitir pesquisar por data da publicação, por nome do requerente, por distrito ou concelho, ou por minerais mencionados</li>
-            <li>gerador de PDF para impressão da situação num certo distrito ou município</li>
+            <li>include protected areas</li>
+            <li>include the reserved spaces 'Espaços de Recursos Geológicos' defined in the PDMs (Planos Director Municipal)</li>
+            <li>add DR publications of the perod between 2006 and 2012</li>
+            <li>interactive filters and time line to select certain periods, name of the submitting company, administrative region, and minerals</li>
+            <li>PDF generator to allow print extracts of a certain district or municipality</li>
           </ul>
 
       <hr>
 
-        <p><strong>AVISO</strong><br />
-          Por razões técnicas pode haver erros nas áreas que foram extraídas das publicações do dre.pt. O processamento foi feito com atenção, mas obviamente não posso assumir qualquer responsabilidade relativamente à coerência dos dados geridos. Quem quiser pode comunicar dados geográficos para inclusão no mapa ou erros por email a <a href="mailto:mapadominerio@auportugal.eu">mapadominerio@auportugal.eu</a>. As 9 zonas publicadas em 3/2017 pelo <i>Grupo de trabalho "Lítio"</i> foram tiradas manualmente do <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">relatório</a> (cap. IV, p.1). Os vértices delas têm porém uma precisão reduzida de 1-3 km. Coordenadas em formatos nacionais nas publicações no dre.pt foram transformadas para WGS 84 com <a href="https://proj4.org" target="_blank">PROJ.4</a>, aplicando as respetivas referências disponíveis em <a href="https://spatialreference.org/ref/epsg/3763/" target="_blank">spatialreference.org</a>.</p>
+        <p><strong>NOTICE</strong><br />
+          For technical reasons the data extracted from dre.pt may have errors. Processing was done with care, but obviously I cannot assume any responsibility for their correctness. If you have any geo data that should be included or find bugs please contact me at <a href="mailto:mapadominerio@auportugal.eu">mapadominerio@auportugal.eu</a>. The 9 zones published in the <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">3/2017 report</a> (ch. IV, p.1) of the 'Lithium' Working Group have been traced manually. The boundaries have thus a mean error of 1-3 km. The coordinates in the publications of dre.pt have been transformed from the national coordinate systems to WGS 84 by using <a href="https://proj4.org" target="_blank">PROJ.4</a> library, using the geospatial references available on <a href="https://spatialreference.org/ref/epsg/3763/" target="_blank">spatialreference.org</a>.</p>
       <hr>
 
-        <p><strong>CÓDIGO ABERTO</strong><br />
-          Este projeto e os ficheiros geoJSON nele incluidos são publicados como código aberto, sob licença ISC abaixo referida. Está <i>livre</i> de puxá-lo do <a href="https://github.com/Nik-Voelker/mapa-do-minerio" target="_blank">repositório no GitHub</a> para criação de dados ou representações derivadas.</p>
+        <p><strong>OPEN SOURCE</strong><br />
+          This project and the included geoJSON/KMZ files are published as open source, under the ISC license referenced below. You are <i>free</i> to pull them from the <a href="https://github.com/Nik-Voelker/mapa-do-minerio" target="_blank">GitHub repository</a> to derive your own data or representations.</p>
 
-          <p><a href="assets/geojson/mapadominerio.labeled.geojson" target="_blank"><img style="vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAGFBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAABoAtTLAAAACHRSTlMAIs3+QoabXn90QeQAAAGUSURBVHgB1dO1kt0wFMbxz9xquQxoUxuOob00k3JBgXJBeQAtv34MscZXPmH+XzwzP7ONLk8SUyEwtiK2YwtU/fB21ntdWaAbMN1ZAPX/gKOzcT4wHAipGGdJCwbsUW1nyhmgajHOnq4YoDPYgpoDOWx7PwEOr74CZPEVQCS+DFQNC+ot4NFztIULtPkkXBAqMrAlVC0coKnGpG50QTUFagYSPd1ESLVxAMJhJz0x7OQCLeAOc6//Dgp8Dtw1Pav/DFizYO0C95aLTtEWcEBVsCkO7JEVinIGJNMHxzAAB1fjfHgGBjj9e6B+/TTrXk0Asf1x0OzISuCOiu7railvVg7IIS+BhJ4DIRko4c+BiC9BJnkOabBmgV9uSMQllMHeggOQVMBvcGfgc8DA0z1YGy/hQA4kn0CyIxhAxwANIDLYBh9WLbimS0j4Je5MfOmA0yiDRJBBiziHMnHmgOeeASFcQJ62/6SJXFACEZ0CCeXdPxOVDqD3T5KKp/ar/afp1XnxTk+A/unLveJBY4EnWbBA20flz8TT8MrXpwAAAABJRU5ErkJggg==" width="24" height="24" alt="Ficheiro KMZ para Google Earth"> Dados em ficheiro geoJSON</a></p>
+          <p><a href="assets/geojson/mapadominerio.labeled.geojson" target="_blank"><img style="vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAGFBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAABoAtTLAAAACHRSTlMAIs3+QoabXn90QeQAAAGUSURBVHgB1dO1kt0wFMbxz9xquQxoUxuOob00k3JBgXJBeQAtv34MscZXPmH+XzwzP7ONLk8SUyEwtiK2YwtU/fB21ntdWaAbMN1ZAPX/gKOzcT4wHAipGGdJCwbsUW1nyhmgajHOnq4YoDPYgpoDOWx7PwEOr74CZPEVQCS+DFQNC+ot4NFztIULtPkkXBAqMrAlVC0coKnGpG50QTUFagYSPd1ESLVxAMJhJz0x7OQCLeAOc6//Dgp8Dtw1Pav/DFizYO0C95aLTtEWcEBVsCkO7JEVinIGJNMHxzAAB1fjfHgGBjj9e6B+/TTrXk0Asf1x0OzISuCOiu7railvVg7IIS+BhJ4DIRko4c+BiC9BJnkOabBmgV9uSMQllMHeggOQVMBvcGfgc8DA0z1YGy/hQA4kn0CyIxhAxwANIDLYBh9WLbimS0j4Je5MfOmA0yiDRJBBiziHMnHmgOeeASFcQJ62/6SJXFACEZ0CCeXdPxOVDqD3T5KKp/ar/afp1XnxTk+A/unLveJBY4EnWbBA20flz8TT8MrXpwAAAABJRU5ErkJggg==" width="24" height="24" alt="geoJSON file"> Data as geoJSON file</a></p>
 
-          <p><a href="assets/kmz/mapadominerio.kmz" target="_blank"><img style="vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAGFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWNxwqAAAACHRSTlMBK9H7UoWdZ8Gyj3EAAAIISURBVHgBxdI3V+NAGIXhO0q0wyG1AhFaW1eWWi1OrQ6xJMioJcPf30/O9ow2h9ehes5k1KmIlmKNWae0djgH5+n7pdF1mS1AAkvdzv8Be1X1/C1wFh8fMNWN4JyjTajzuAlsUYpzdNt24DGOaqFR5lbQvZsceoKNxAZUBulVhMartgD3djIP2ULQsoAzzFYaA0cWkKjqbvo2Ut01gR+W5D4AhyKcQkC2ApyKUgFAIKvQGMGZP7MNSi0B6QrY4rgOgC7JdhPg/mSdiQG6nFaMp8uaQawR2MAWZ6U1SL4BmAW2RTpcFNu2GfAy4qJbA3gJVMl5TwZABuBlDmCCV0g7k2nizAKcEJIaVgcHo/GD2VoDqoN5r9oCsFXgPUddkMAGVAzy+Prt8565FcDpRPMbtQK8clyCJoABpRGaAVSvp2EFRn8apMNPo7fzJUBrfxYcnTF9KNOqJKsrHlWV/K+AwuctyhAOUygWAJQBtM8QAZMxUPDWQJChK8BjS6nx9M46CBUZeuBtrwZtlOtTaIe89RE9XUPAk8c1AGwJcPQ5TgSk2DKBTxbu0wsyRGyhXAfqDjW47XuJgHyD68DvoMvcDVWQIZIZDBAQAfVWG46AEJE5gswiIIN8yxxfNrcN0Mar3kpx3kGEulUwOmXce70450OU9qL6+QyXQfnb7+HUDpI5UJEV5JC+AkrI3r4qW95FAAAAAElFTkSuQmCC" width="24" height="24" alt="Ficheiro KMZ para Google Earth"> Dados em ficheiro KMZ para Google Earth</a></p>
+          <p><a href="assets/kmz/mapadominerio.kmz" target="_blank"><img style="vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAGFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWNxwqAAAACHRSTlMBK9H7UoWdZ8Gyj3EAAAIISURBVHgBxdI3V+NAGIXhO0q0wyG1AhFaW1eWWi1OrQ6xJMioJcPf30/O9ow2h9ehes5k1KmIlmKNWae0djgH5+n7pdF1mS1AAkvdzv8Be1X1/C1wFh8fMNWN4JyjTajzuAlsUYpzdNt24DGOaqFR5lbQvZsceoKNxAZUBulVhMartgD3djIP2ULQsoAzzFYaA0cWkKjqbvo2Ut01gR+W5D4AhyKcQkC2ApyKUgFAIKvQGMGZP7MNSi0B6QrY4rgOgC7JdhPg/mSdiQG6nFaMp8uaQawR2MAWZ6U1SL4BmAW2RTpcFNu2GfAy4qJbA3gJVMl5TwZABuBlDmCCV0g7k2nizAKcEJIaVgcHo/GD2VoDqoN5r9oCsFXgPUddkMAGVAzy+Prt8565FcDpRPMbtQK8clyCJoABpRGaAVSvp2EFRn8apMNPo7fzJUBrfxYcnTF9KNOqJKsrHlWV/K+AwuctyhAOUygWAJQBtM8QAZMxUPDWQJChK8BjS6nx9M46CBUZeuBtrwZtlOtTaIe89RE9XUPAk8c1AGwJcPQ5TgSk2DKBTxbu0wsyRGyhXAfqDjW47XuJgHyD68DvoMvcDVWQIZIZDBAQAfVWG46AEJE5gswiIIN8yxxfNrcN0Mar3kpx3kGEulUwOmXce70450OU9qL6+QyXQfnb7+HUDpI5UJEV5JC+AkrI3r4qW95FAAAAAElFTkSuQmCC" width="24" height="24" alt="KMZ file for Google Earth"> Data as KMZ for Google Earth</a></p>
 
           <p class="license">
             Copyright 2019, Nik Völker<br />
@@ -228,7 +229,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
       <hr>
 
         <p class="footer">
-          <a href="mailto:nik@nik-voelker.com">❄️ Made</a> na Serra da Estrela ⛰️
+          <a href="mailto:nik@nik-voelker.com">❄️ Made</a> in the Serra da Estrela ⛰️
         </p>
 
     </div>
@@ -383,14 +384,14 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
                   let minerals = (feature.properties.minerals) ? JSON.parse(feature.properties.minerals).join(', ') : 's.d.';
                   // não é bonito, mas dá para o bolo sair do forno... :-) 
                   return '<h2>' + feature.properties.name + '</h2>' + 
-                  '<strong>Superfície:</strong> ' + Math.round(feature.properties.area / 10000) / 100 + ' km²<br />' +
-                  '<strong>Tipo:</strong> ' + dre.act + '<br />' + 
-                  '<strong>Requerente:</strong> ' + dre.entity + '<br />' + 
-                  '<strong>Data:</strong> ' + dre.pubDate + '<br />' + 
-                  '<strong>Minerais:</strong> ' + minerals + '<br />' + 
+                  '<strong>Surface:</strong> ' + Math.round(feature.properties.area / 10000) / 100 + ' km²<br />' +
+                  '<strong>Type:</strong> ' + dre.act + '<br />' + 
+                  '<strong>Applicant:</strong> ' + dre.entity + '<br />' + 
+                  '<strong>Date:</strong> ' + dre.pubDate + '<br />' + 
+                  '<strong>Minerals:</strong> ' + minerals + '<br />' + 
                   '<strong>DR N.°:</strong> ' + dre.pubNo + '<br />' +
-                  '<strong>Publicação N.°:</strong> ' + dre.actNo + '<br />' + 
-                  '<strong>Fonte:</strong> <a href="' + dre.urlHtml + '" target="_blank">HTML</a> ' + '<a href="' + dre.urlPdf + '" target="_blank">PDF</a><br />'
+                  '<strong>Publication N.°:</strong> ' + dre.actNo + '<br />' + 
+                  '<strong>Source:</strong> <a href="' + dre.urlHtml + '" target="_blank">HTML</a> ' + '<a href="' + dre.urlPdf + '" target="_blank">PDF</a><br />'
                 }).join('<hr>'))
                 .addTo(map);
             });
@@ -400,7 +401,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
                 .setHTML(e.features.map(function(feature) { 
                   // não é bonito, mas dá para o bolo sair do forno... :-) 
                   return '<h2>' + feature.properties.name + '</h2>' + 
-                  feature.properties.descr + ' <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">Fonte</a><br /><br /><i>Vértice extraido manual - precisão reduzida de 1-3 km!</i>';
+                  feature.properties.descr + ' <a href="http://www.dgeg.gov.pt/?cr=15897" target="_blank">Fonte</a><br /><br /><i>Polygon extracted manually - reduced precision of 1-3 km!</i>';
                 }).join('<hr>'))
                 .addTo(map);
             });
@@ -430,7 +431,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DATA.
       var sateliteBtn = document.createElement('a');
           sateliteBtn.href = '#';
           sateliteBtn.className = 'focus';
-          sateliteBtn.textContent = 'Satélite';
+          sateliteBtn.textContent = 'Satellite';
           sateliteBtn.onclick = function (e) {
                 if (this.className === 'active') {
                   map.setStyle('mapbox://styles/mapadominerio/cjvfilgob0n0f1fqnjq62at3p'); // switch back to slim vector map
