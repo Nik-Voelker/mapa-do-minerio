@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Language} (pt) [NC]
+RewriteRule ^$ http://mapadominerio.auportugal.eu/index.html [L,R=301]
+RewriteCond %{HTTP:Accept-Language} (en) [NC]
+RewriteRule ^$ http://mapadominerio.auportugal.eu/index.en.html [L,R=301]
+RewriteCond %{HTTP:Accept-Language} (de) [NC]
+RewriteRule ^$ http://mapadominerio.auportugal.eu/index.de.html [L,R=301]
