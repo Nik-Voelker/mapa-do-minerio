@@ -8,6 +8,999 @@
         "coordinates": [
           [
             [
+              -6.9929,
+              41.70001
+            ],
+            [
+              -6.96179,
+              41.6997
+            ],
+            [
+              -6.96261,
+              41.65469
+            ],
+            [
+              -6.99443,
+              41.65501
+            ],
+            [
+              -6.96847,
+              41.68912
+            ],
+            [
+              -6.9929,
+              41.70001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Beralt Tin and Wolfram (Portugal) S.A.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "16223/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 125243236,
+          "pubNo": "196/2019",
+          "pubDate": "2019-10-11",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/125243236/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/125243236"
+        },
+        "name": "Agrochão-Murçós, Bloco B",
+        "minerals": [
+          "tungsténio/volfrâmio",
+          "estanho",
+          "ouro",
+          "prata",
+          "cobre",
+          "chumbo",
+          "zinco",
+          "outros minerais"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 7945488,
+        "centroid": [
+          -6.97301,
+          41.66591
+        ],
+        "minzoom": 7
+      },
+      "id": 5125243236,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.08205,
+              41.69244
+            ],
+            [
+              -7.05395,
+              41.67995
+            ],
+            [
+              -7.05905,
+              41.67333
+            ],
+            [
+              -7.01841,
+              41.65524
+            ],
+            [
+              -7.08264,
+              41.65585
+            ],
+            [
+              -7.08205,
+              41.69244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Beralt Tin and Wolfram (Portugal) S.A.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "16223/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 125243236,
+          "pubNo": "196/2019",
+          "pubDate": "2019-10-11",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/125243236/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/125243236"
+        },
+        "name": "Agrochão-Murçós, Bloco A",
+        "minerals": [
+          "tungsténio/volfrâmio",
+          "estanho",
+          "ouro",
+          "prata",
+          "cobre",
+          "chumbo",
+          "zinco",
+          "outros minerais"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 10366100,
+        "centroid": [
+          -7.06985,
+          41.66803
+        ],
+        "minzoom": 7
+      },
+      "id": 5125243236,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.62441,
+              39.25329
+            ],
+            [
+              -7.55685,
+              39.22052
+            ],
+            [
+              -7.43772,
+              39.21925
+            ],
+            [
+              -7.39143,
+              39.20519
+            ],
+            [
+              -7.30149,
+              39.18428
+            ],
+            [
+              -7.30345,
+              39.10231
+            ],
+            [
+              -7.39598,
+              39.09006
+            ],
+            [
+              -7.58731,
+              39.18312
+            ],
+            [
+              -7.65315,
+              39.21746
+            ],
+            [
+              -7.62441,
+              39.25329
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Iberian Resources Portugal Recursos Minerais, Unipessoal, Lda.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "16111/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 125193284,
+          "pubNo": "195/2019",
+          "pubDate": "2019-10-10",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/125193284/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/125193284"
+        },
+        "name": "Assumar",
+        "minerals": [
+          "ouro",
+          "prata",
+          "cobre",
+          "chumbo",
+          "zinco",
+          "estanho",
+          "tungsténio/volfrâmio",
+          "tântalo",
+          "terras raras",
+          "minerais associados"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 267115417,
+        "centroid": [
+          -7.38663,
+          39.14745
+        ],
+        "minzoom": 6
+      },
+      "id": 5125193284,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.64554,
+              40.54551
+            ],
+            [
+              -8.65178,
+              40.54799
+            ],
+            [
+              -8.65409,
+              40.54847
+            ],
+            [
+              -8.65525,
+              40.55029
+            ],
+            [
+              -8.65112,
+              40.55125
+            ],
+            [
+              -8.64506,
+              40.55338
+            ],
+            [
+              -8.64443,
+              40.55227
+            ],
+            [
+              -8.64374,
+              40.55165
+            ],
+            [
+              -8.64405,
+              40.55086
+            ],
+            [
+              -8.64411,
+              40.55043
+            ],
+            [
+              -8.64513,
+              40.55077
+            ],
+            [
+              -8.64547,
+              40.55051
+            ],
+            [
+              -8.64489,
+              40.54967
+            ],
+            [
+              -8.64431,
+              40.54932
+            ],
+            [
+              -8.643,
+              40.54911
+            ],
+            [
+              -8.6422,
+              40.54916
+            ],
+            [
+              -8.64161,
+              40.54957
+            ],
+            [
+              -8.64156,
+              40.55158
+            ],
+            [
+              -8.64002,
+              40.55835
+            ],
+            [
+              -8.64291,
+              40.55741
+            ],
+            [
+              -8.64607,
+              40.56259
+            ],
+            [
+              -8.64484,
+              40.56304
+            ],
+            [
+              -8.64059,
+              40.55852
+            ],
+            [
+              -8.6395,
+              40.55876
+            ],
+            [
+              -8.63659,
+              40.55998
+            ],
+            [
+              -8.63208,
+              40.56178
+            ],
+            [
+              -8.63359,
+              40.55552
+            ],
+            [
+              -8.63615,
+              40.55144
+            ],
+            [
+              -8.64554,
+              40.54551
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Braga & Fernandes, Lda.",
+          "act": "Requerimento de contrato para concessão de exploração",
+          "actNo": "14474/2019",
+          "actType": "reqConcessao",
+          "actString": "aviso",
+          "actId": 124792783,
+          "pubNo": "179/2019",
+          "pubDate": "2019-09-18",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124792783/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124792783"
+        },
+        "name": "Lavandeira",
+        "minerals": [
+          "quartzo",
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#ff00ff",
+        "stroke": "#cc00cc",
+        "opacity": 0.3,
+        "area": 1269378,
+        "centroid": [
+          -8.63717,
+          40.55592
+        ],
+        "minzoom": 8
+      },
+      "id": 5124792783,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.55492,
+              40.61302
+            ],
+            [
+              -8.54737,
+              40.61248
+            ],
+            [
+              -8.54866,
+              40.61103
+            ],
+            [
+              -8.5498,
+              40.60941
+            ],
+            [
+              -8.55177,
+              40.60582
+            ],
+            [
+              -8.55382,
+              40.60304
+            ],
+            [
+              -8.57022,
+              40.60329
+            ],
+            [
+              -8.55684,
+              40.61022
+            ],
+            [
+              -8.55492,
+              40.61302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Motamineral - Minerais Indústrias, S.A.",
+          "act": "Requerimento de contrato para concessão de exploração",
+          "actNo": "14476/2019",
+          "actType": "reqConcessao",
+          "actString": "aviso",
+          "actId": 124792785,
+          "pubNo": "179/2019",
+          "pubDate": "2019-09-18",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124792785/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124792785"
+        },
+        "name": "Costa Negra",
+        "minerals": [
+          "quartzo",
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#ff00ff",
+        "stroke": "#cc00cc",
+        "opacity": 0.3,
+        "area": 998650,
+        "centroid": [
+          -8.5565,
+          40.60678
+        ],
+        "minzoom": 8
+      },
+      "id": 5124792785,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.69959,
+              41.43486
+            ],
+            [
+              -6.53956,
+              41.44208
+            ],
+            [
+              -6.47866,
+              41.39421
+            ],
+            [
+              -6.49641,
+              41.36704
+            ],
+            [
+              -6.51547,
+              41.36346
+            ],
+            [
+              -6.52282,
+              41.36164
+            ],
+            [
+              -6.54079,
+              41.3432
+            ],
+            [
+              -6.59449,
+              41.32468
+            ],
+            [
+              -6.59446,
+              41.35657
+            ],
+            [
+              -6.83669,
+              41.35955
+            ],
+            [
+              -6.69959,
+              41.43486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Acúrcio Henriques Parra, Lda.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "14475/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 124792784,
+          "pubNo": "179/2019",
+          "pubDate": "2019-09-18",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124792784/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124792784"
+        },
+        "name": "Vale da Urze",
+        "minerals": [
+          "cobre",
+          "chumbo",
+          "zinco",
+          "ouro",
+          "ferro",
+          "outros minerais associados"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 211205195,
+        "centroid": [
+          -6.56108,
+          41.39209
+        ],
+        "minzoom": 6
+      },
+      "id": 5124792784,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.54542,
+              40.61197
+            ],
+            [
+              -8.543,
+              40.60237
+            ],
+            [
+              -8.54363,
+              40.597
+            ],
+            [
+              -8.55868,
+              40.59553
+            ],
+            [
+              -8.55606,
+              40.5986
+            ],
+            [
+              -8.55392,
+              40.60031
+            ],
+            [
+              -8.55217,
+              40.60194
+            ],
+            [
+              -8.55064,
+              40.60381
+            ],
+            [
+              -8.54949,
+              40.60565
+            ],
+            [
+              -8.54846,
+              40.60828
+            ],
+            [
+              -8.54654,
+              40.61098
+            ],
+            [
+              -8.54542,
+              40.61197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Motamineral - Minerais Industriais, S. A.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "14374/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 124750397,
+          "pubNo": "178/2019",
+          "pubDate": "2019-09-17",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124750397/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124750397"
+        },
+        "name": "Uchas, Bloco II",
+        "minerals": [
+          "quartzo",
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 1084142,
+        "centroid": [
+          -8.54741,
+          40.60092
+        ],
+        "minzoom": 8
+      },
+      "id": 5124750397,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.57024,
+              40.60328
+            ],
+            [
+              -8.56573,
+              40.59814
+            ],
+            [
+              -8.56102,
+              40.59537
+            ],
+            [
+              -8.56171,
+              40.59365
+            ],
+            [
+              -8.56187,
+              40.59231
+            ],
+            [
+              -8.56165,
+              40.58945
+            ],
+            [
+              -8.56116,
+              40.58648
+            ],
+            [
+              -8.56348,
+              40.58615
+            ],
+            [
+              -8.57557,
+              40.58584
+            ],
+            [
+              -8.58123,
+              40.58895
+            ],
+            [
+              -8.57497,
+              40.59435
+            ],
+            [
+              -8.57103,
+              40.5968
+            ],
+            [
+              -8.57437,
+              40.59935
+            ],
+            [
+              -8.57024,
+              40.60328
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Motamineral - Minerais Industriais, S. A.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "14374/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 124750397,
+          "pubNo": "178/2019",
+          "pubDate": "2019-09-17",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124750397/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124750397"
+        },
+        "name": "Uchas, Bloco I",
+        "minerals": [
+          "quartzo",
+          "caulino"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 1877240,
+        "centroid": [
+          -8.56761,
+          40.59184
+        ],
+        "minzoom": 8
+      },
+      "id": 5124750397,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.4884,
+              38.26934
+            ],
+            [
+              -8.46091,
+              38.26138
+            ],
+            [
+              -8.37305,
+              38.2116
+            ],
+            [
+              -8.35997,
+              38.21544
+            ],
+            [
+              -8.30622,
+              38.19348
+            ],
+            [
+              -8.32697,
+              38.16716
+            ],
+            [
+              -8.37301,
+              38.19787
+            ],
+            [
+              -8.42438,
+              38.19873
+            ],
+            [
+              -8.46063,
+              38.18603
+            ],
+            [
+              -8.50033,
+              38.21639
+            ],
+            [
+              -8.50429,
+              38.25012
+            ],
+            [
+              -8.4884,
+              38.26934
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "REDCORP — Empreendimentos Mineiros, Lda. e EDM — Empresa de Desenvolvimento Mineiro, SA.",
+          "act": "Requerimento de contrato para concessão de exploração",
+          "actNo": "13907/2019",
+          "actType": "reqConcessao",
+          "actString": "aviso",
+          "actId": 124500384,
+          "pubNo": "171/2019",
+          "pubDate": "2019-09-06",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124500384/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124500384"
+        },
+        "name": "Lagoa Salgada",
+        "minerals": [
+          "cobre",
+          "chumbo",
+          "zinco",
+          "ouro",
+          "prata",
+          "estanho",
+          "manganês",
+          "bário",
+          "pirites"
+        ],
+        "src": "dre",
+        "fill": "#ff00ff",
+        "stroke": "#cc00cc",
+        "opacity": 0.3,
+        "area": 75604282,
+        "centroid": [
+          -8.4552,
+          38.22184
+        ],
+        "minzoom": 6
+      },
+      "id": 5124500384,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.47424,
+              38.1341
+            ],
+            [
+              -8.41499,
+              38.0997
+            ],
+            [
+              -8.33469,
+              38.06166
+            ],
+            [
+              -8.27968,
+              38.13006
+            ],
+            [
+              -8.10242,
+              37.97345
+            ],
+            [
+              -8.23843,
+              37.93683
+            ],
+            [
+              -8.32658,
+              37.87165
+            ],
+            [
+              -8.28415,
+              37.81137
+            ],
+            [
+              -8.35994,
+              37.76674
+            ],
+            [
+              -8.37699,
+              37.79009
+            ],
+            [
+              -8.38885,
+              37.86813
+            ],
+            [
+              -8.36675,
+              37.87331
+            ],
+            [
+              -8.38653,
+              37.90145
+            ],
+            [
+              -8.39203,
+              37.91811
+            ],
+            [
+              -8.39384,
+              37.93806
+            ],
+            [
+              -8.38887,
+              37.94835
+            ],
+            [
+              -8.38649,
+              37.96657
+            ],
+            [
+              -8.38925,
+              37.98407
+            ],
+            [
+              -8.39766,
+              38.00134
+            ],
+            [
+              -8.39721,
+              38.01895
+            ],
+            [
+              -8.43739,
+              38.09239
+            ],
+            [
+              -8.4946,
+              38.13392
+            ],
+            [
+              -8.47424,
+              38.1341
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "dre": {
+          "entity": "Matsa, S. A.",
+          "act": "Requerimento de prospeção e pesquisa",
+          "actNo": "13598/2019",
+          "actType": "reqPesquisa",
+          "actString": "aviso",
+          "actId": 124315832,
+          "pubNo": "166/2019",
+          "pubDate": "2019-08-30",
+          "pubYear": 2019,
+          "coordSys": "PT-TM06/ETRS89",
+          "urlHtml": "https://dre.pt/web/guest/pesquisa/-/search/124315832/details/",
+          "urlPdf": "https://dre.pt/application/conteudo/124315832"
+        },
+        "name": "Ermidas",
+        "minerals": [
+          "cobre",
+          "chumbo",
+          "zinco",
+          "ouro",
+          "prata",
+          "outros metais associados"
+        ],
+        "src": "dre",
+        "fill": "#00ffff",
+        "stroke": "#00cccc",
+        "opacity": 0.3,
+        "area": 500357079,
+        "centroid": [
+          -8.26931,
+          38.01212
+        ],
+        "minzoom": 5
+      },
+      "id": 5124315832,
+      "year": 2019
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -7.81792,
               41.6353
             ],
@@ -132,7 +1125,8 @@
           -7.80151,
           41.5899
         ],
-        "minzoom": 6
+        "minzoom": 6, 
+        "comment": "Polígono publicado com defeito na coordenada J (eixo Y, v. PDF). Daí o colapso da vertente Norte 200 km para o Sul, a danificar o perímetro."
       },
       "id": 5122624593,
       "year": 2019
@@ -32178,7 +33172,8 @@
           -8.72266,
           41.8685
         ],
-        "minzoom": 7
+        "minzoom": 7,
+        "comment": "Polígono publicitado com defeito na coordenada A (eixo X/Meridiana, v. PDF) da zona de exclusão. Daí o colapso 40 km para o Este, a danificar o perímetro."
       },
       "id": 51815878,
       "year": 2013
